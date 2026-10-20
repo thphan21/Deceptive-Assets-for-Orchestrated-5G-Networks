@@ -1,0 +1,18 @@
+#!/home/phan/osm-venv/bin/python3
+import re
+import sys
+import requests
+
+orig = requests.sessions.Session.request
+
+def traced(self, method, url, **kwargs):
+    print(f"\n>>> {method} {url}", file=sys.stderr)
+    return orig(self, method, url, **kwargs)
+
+requests.sessions.Session.request = traced
+
+from osmclient.scripts.osm import cli
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(cli())

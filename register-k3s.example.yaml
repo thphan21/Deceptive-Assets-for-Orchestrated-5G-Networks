@@ -1,0 +1,25 @@
+name: local-k3s
+vim_account: <OSM_VIM_ACCOUNT_ID>
+k8s_version: "1.34"
+nets:
+  default: default
+credentials:
+  kubeconfig: |
+    apiVersion: v1
+    clusters:
+    - cluster:
+        certificate-authority-data: <BASE64_ENCODED_CA_CERTIFICATE>
+        server: https://<K3S_NODE_IP>:6443
+      name: default
+    contexts:
+    - context:
+        cluster: default
+        user: default
+      name: default
+    current-context: default
+    kind: Config
+    users:
+    - name: default
+      user:
+        client-certificate-data: <BASE64_ENCODED_CLIENT_CERTIFICATE>
+        client-key-data: <BASE64_ENCODED_CLIENT_PRIVATE_KEY>
