@@ -1,0 +1,26 @@
+apiVersion: cilium.io/v1alpha1
+kind: TracingPolicyNamespaced
+metadata:
+  name: udr-file-access
+  namespace: open5gs
+spec:
+  podSelector:
+    matchLabels:
+      app.kubernetes.io/name: udr
+
+  kprobes:
+  - call: security_file_permission
+    syscall: false
+
+    args:
+    - index: 0
+      type: file
+    - index: 1
+      type: int
+
+    selectors:
+    - matchArgs:
+      - index: 0
+        operator: Prefix
+        values:
+        - /opt/open5gs/

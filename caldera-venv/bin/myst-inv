@@ -1,0 +1,6 @@
+#!/home/phan/caldera-venv/bin/python
+import sys
+from myst_parser.inventory import inventory_cli
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(inventory_cli())

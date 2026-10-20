@@ -1,0 +1,61 @@
+apiVersion: monitoring.coreos.com/v1
+kind: PrometheusRule
+metadata:
+  name: thesis-honeyfile-alerts
+  namespace: monitoring
+  labels:
+    release: kube-prometheus-stack-0072623329
+spec:
+  groups:
+  - name: thesis-honeyfile-alerts
+    rules:
+
+    # More than 3 honeyfiles interacted with
+    - alert: Detected_at_least_3_Honey_FILE_Interactions
+      expr: thesis_honeyfiles_interacted >= 3
+      labels:
+        severity: warning
+        experiment: thesis-deception
+      annotations:
+        summary: "Honeyfile interaction threshold exceeded"
+        description: "More than three honeyfiles were interacted with."
+
+    # More than 3 honey environment variables interacted with
+    - alert: Detected_at_least_3_Honey_ENV_Interactions
+      expr: thesis_honeyenvs_interacted >= 3
+      labels:
+        severity: warning
+        experiment: thesis-deception
+      annotations:
+        summary: "Honey ENV interaction threshold exceeded"
+        description: "More than three honey environment variables were interacted with."
+
+    # At least one honey binary interacted with
+    - alert: Detected_at_least_1_Honey_BINARY_Interactions
+      expr: thesis_honeybinaries_interacted >= 1
+      labels:
+        severity: warning
+        experiment: thesis-deception
+      annotations:
+        summary: "Honey binary interaction detected"
+        description: "At least one honey binary was interacted with."
+
+    # More than 5 distinct suspicious binaries executed
+    - alert:  Detected_at_least_7_Suspicious_BINARY_Executions
+      expr: thesis_suspicious_binaries_seen >= 7
+      labels:
+        severity: critical
+        experiment: thesis-deception
+      annotations:
+        summary: "Suspicious binary execution threshold exceeded"
+        description: "More than five distinct suspicious binaries were executed."
+    
+  # More than 1 honey binaries executed
+    - alert: Detected_at_least_1_Honey_BINARY_Execution
+      expr: thesis_honey_assets_executed >= 1
+      labels:
+        severity: critical
+        experiment: thesis-deception
+      annotations:
+        summary: "Honey asset execution detected"
+        description: "At least one honey asset was explicitly executed."

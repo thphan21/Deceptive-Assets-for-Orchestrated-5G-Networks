@@ -1,0 +1,10 @@
+prometheus-node-exporter:
+  extraArgs:
+    - --collector.textfile.directory=/textfile
+
+  extraHostVolumeMounts:
+    - name: thesis-textfile
+      hostPath: /home/phan/tools/deception/node-exporter/textfile_collector
+      mountPath: /textfile
+      readOnly: true
+      type: Directory
