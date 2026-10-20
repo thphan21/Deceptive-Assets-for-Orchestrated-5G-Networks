@@ -1,0 +1,13 @@
+vnfd:
+  id: open5gs_knf
+  product-name: open5gs_knf
+  provider: local
+  version: "1.0"
+  description: Open5GS KNF deployed by OSM using Helm chart
+
+  kdu:
+    - name: open5gs
+      helm-chart: open5gs
+
+  df:
+    - id: default-df

@@ -1,0 +1,23 @@
+nsd:
+  nsd:
+    - id: monitoring_nsd
+      name: monitoring_nsd
+      designer: local
+      version: "1.0"
+      description: Monitoring NS using kube-prometheus-stack KNF
+      vnfd-id:
+        - monitoring_knf
+      virtual-link-desc:
+        - id: mgmt
+          vim-network-name: default
+      df:
+        - id: default-df
+          vnf-profile:
+            - id: monitoring
+              vnfd-id: monitoring_knf
+              virtual-link-connectivity:
+                - virtual-link-profile-id: mgmt-profile
+                  constituent-cpd-id: []
+          virtual-link-profile:
+            - id: mgmt-profile
+              virtual-link-desc-id: mgmt

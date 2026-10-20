@@ -1,0 +1,4 @@
+nsName: open5gs
+nsdId: ed1685ad-313b-4c2b-af30-32932b41d57e
+vimAccountId: e4fd1c4a-0ef0-4a94-8e93-b0e94520f78d
+k8s-namespace: open5gs

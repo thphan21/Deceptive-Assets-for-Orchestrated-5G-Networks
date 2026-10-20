@@ -1,0 +1,17 @@
+coreDns:
+  enabled: false
+
+kubeDns:
+  enabled: false
+
+kubeControllerManager:
+  enabled: false
+
+kubeEtcd:
+  enabled: false
+
+kubeProxy:
+  enabled: false
+
+kubeScheduler:
+  enabled: false

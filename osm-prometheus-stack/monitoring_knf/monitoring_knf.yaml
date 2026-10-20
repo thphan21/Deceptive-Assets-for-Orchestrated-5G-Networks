@@ -1,0 +1,16 @@
+vnfd:
+  id: monitoring_knf
+  product-name: monitoring_knf
+  provider: local
+  version: "1.0"
+  description: Kubernetes monitoring stack deployed by OSM using kube-prometheus-stack Helm chart (in Definitions dir)
+
+  kdu:
+    - name: monitoring
+      helm-chart: kube-prometheus-stack
+
+  df:
+    - id: default-df
+#      kdu-profile:
+ #       - id: monitoring-profile
+  #        kdu-name: monitoring

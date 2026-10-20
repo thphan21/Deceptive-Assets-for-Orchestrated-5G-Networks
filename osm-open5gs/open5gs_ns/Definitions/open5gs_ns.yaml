@@ -1,0 +1,23 @@
+nsd:
+  nsd:
+    - id: open5gs_nsd
+      name: open5gs_nsd
+      designer: local
+      version: "1.0"
+      description: Open5GS 5G Core NS using open5gs_knf (in Definitions dir)
+      vnfd-id:
+        - open5gs_knf
+      virtual-link-desc:
+        - id: mgmt
+          vim-network-name: default
+      df:
+        - id: default-df
+          vnf-profile:
+            - id: open5gs
+              vnfd-id: open5gs_knf
+              virtual-link-connectivity:
+                - virtual-link-profile-id: mgmt-profile
+                  constituent-cpd-id: []
+          virtual-link-profile:
+            - id: mgmt-profile
+              virtual-link-desc-id: mgmt
