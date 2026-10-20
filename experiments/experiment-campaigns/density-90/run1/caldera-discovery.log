@@ -1,0 +1,2290 @@
+/opt/open5gs/splunkd
+
+/opt/open5gs/bin:
+curl1.0
+curl2.0
+curl3.0
+open5gs-amfd
+open5gs-ausfd
+open5gs-bsfd
+open5gs-db-backup
+open5gs-db-status
+open5gs-hssd
+open5gs-mmed
+open5gs-nrfd
+open5gs-nssfd
+open5gs-pcfd
+open5gs-pcrfd
+open5gs-scpd
+open5gs-seppd
+open5gs-sgwcd
+open5gs-sgwud
+open5gs-smfd
+open5gs-udmd
+open5gs-udrd
+open5gs-upfd
+ping1
+ping2
+ping3
+
+/opt/open5gs/etc:
+freeDiameter
+open5gs
+
+/opt/open5gs/lib:
+freeDiameter
+x86_64-linux-gnu
+
+/opt/open5gs/var:
+log
+open5gs
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+messagebus
+tcpdump
+open5gs
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_HOST=10.43.83.208
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_ADDR=10.43.132.193
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_PROTO=udp
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP=tcp://10.43.37.210:9090
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_PORT_NGAP=38412
+OPEN5GS_0078507098_WEBUI_SERVICE_PORT_HTTP=9999
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_PROTO=tcp
+KUBERNETES_SERVICE_PORT=443
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_ADDR=10.43.185.35
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP=tcp://10.43.34.171:9999
+OPEN5GS_0078507098_AMF_SBI_SERVICE_HOST=10.43.39.31
+KUBERNETES_PORT=tcp://10.43.0.1:443
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP=sctp://10.43.130.118:38412
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP=udp://10.43.210.90:8805
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_HOST=10.43.68.100
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_PORT=38412
+OPEN5GS_0078507098_AMF_NGAP_PORT=sctp://10.43.13.170:38412
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_PORT=27017
+HOSTNAME=open5gs-0078507098-udr-659b79788f-t5dnb
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP=tcp://10.43.188.117:7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP=tcp://10.43.175.16:7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_PORT=2152
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_PROTO=tcp
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP=tcp://10.43.246.225:7777
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_ADDR=10.43.68.100
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP=tcp://10.43.226.120:7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_PROTO=udp
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_HOST=10.43.185.35
+HOME=/opt/open5gs
+OPEN5GS_0078507098_PCF_SBI_SERVICE_HOST=10.43.202.126
+APP_ROOT=/opt/open5gs
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_PORT=2152
+OPEN5GS_0078507098_SMF_GTPU_PORT=udp://10.43.83.208:2152
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_HOST=10.43.219.116
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP=udp://10.43.83.208:2152
+OPEN5GS_0078507098_AMF_SBI_PORT=tcp://10.43.39.31:7777
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_WEBUI_SERVICE_HOST=10.43.34.171
+OPEN5GS_0078507098_BSF_SBI_SERVICE_HOST=10.43.174.11
+BACKUP_DATABASE=/opt/open5gs/backups/subscriber-db-previous.dump_honey
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_ADDR=10.43.219.116
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP=tcp://10.43.179.105:7777
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_AMF_METRICS_PORT=tcp://10.43.68.100:9090
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP=tcp://10.43.199.150:7777
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_ADDR=10.43.13.170
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP=tcp://10.43.132.193:27017
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_AMF_NGAP_NODEPORT_SERVICE_HOST=10.43.130.118
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_PORT=2152
+OPEN5GS_0078507098_UPF_GTPU_PORT=udp://10.43.185.35:2152
+OPEN5GS_0078507098_AMF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP=udp://10.43.185.35:2152
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_ADDR=10.43.39.31
+OPEN5GS_0078507098_PCF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_PCF_SBI_PORT=tcp://10.43.202.126:7777
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_PORT=38412
+OPEN5GS_0078507098_PCF_METRICS_PORT=tcp://10.43.219.116:9090
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_HOST=10.43.77.253
+VERSION=2.7.5
+OPEN5GS_0078507098_BSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_PORT_METRICS=9090
+OPEN5GS_0078507098_BSF_SBI_PORT=tcp://10.43.174.11:7777
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_ADDR=10.43.80.4
+OPEN5GS_0078507098_WEBUI_SERVICE_PORT=9999
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_PROTO=sctp
+OPEN5GS_0078507098_WEBUI_PORT=tcp://10.43.34.171:9999
+ENABLE_NAT=true
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_HOST=10.43.67.184
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP=tcp://10.43.68.100:9090
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_PORT=2123
+OPEN5GS_0078507098_PCF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_ADDR=10.43.202.126
+TERM=xterm
+OPEN5GS_0078507098_SMF_SBI_SERVICE_HOST=10.43.175.16
+OPEN5GS_AMF_NGAP_NODEPORT_PORT=sctp://10.43.130.118:38412
+OPEN5GS_0078507098_NRF_SBI_SERVICE_HOST=10.43.246.225
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_PROTO=udp
+OPEN5GS_0078507098_UDM_SBI_SERVICE_HOST=10.43.188.117
+OPEN5GS_0078507098_SCP_SBI_SERVICE_HOST=10.43.226.120
+OPEN5GS_AMF_NGAP_NODEPORT_SERVICE_PORT=38412
+KUBERNETES_PORT_443_TCP_ADDR=10.43.0.1
+OPEN5GS_0078507098_BSF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_PORT_METRICS=9090
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_HOST=10.43.110.76
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_ADDR=10.43.174.11
+PATH=/opt/open5gs/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+IPV4_TUN_SUBNET=10.45.0.0/16
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP=tcp://10.43.219.116:9090
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_HOST=10.43.210.90
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_HOST=10.43.80.4
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_PORT=tcp://10.43.77.253:7777
+API_TOKEN=honey-open5gs-api-token-7f3a91c2_honey
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_PROTO=tcp
+KUBERNETES_PORT_443_TCP_PORT=443
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_ADDR=10.43.110.76
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_ADDR=10.43.67.184
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP=sctp://10.43.13.170:38412
+OPEN5GS_0078507098_SMF_PFCP_PORT=udp://10.43.67.184:8805
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_PORT=8805
+KUBERNETES_PORT_443_TCP_PROTO=tcp
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_UDR_SBI_SERVICE_HOST=10.43.179.105
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_PORT_PFCP=8805
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP=tcp://10.43.39.31:7777
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_HOST=10.43.37.210
+OPEN5GS_0078507098_MONGODB_SERVICE_PORT_MONGODB=27017
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_HOST=10.43.199.150
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_SCP_SBI_PORT=tcp://10.43.226.120:7777
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_ADDR=10.43.77.253
+OPEN5GS_0078507098_SMF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_PORT=8805
+OPEN5GS_0078507098_SMF_SBI_PORT=tcp://10.43.175.16:7777
+OPEN5GS_0078507098_SCP_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_UDM_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_PORT=tcp://10.43.246.225:7777
+OPEN5GS_0078507098_UDM_SBI_PORT=tcp://10.43.188.117:7777
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_ADDR=10.43.37.210
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_PROTO=udp
+OPEN5GS_0078507098_SMF_METRICS_PORT=tcp://10.43.110.76:9090
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP=udp://10.43.80.4:2123
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_PORT=9090
+SSH_KEY_PATH=/opt/open5gs/etc/open5gs/hnet/subscriber-backup_honey.key
+OPEN5GS_0078507098_UPF_PFCP_PORT=udp://10.43.210.90:8805
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_ADDR=10.43.34.171
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_ADDR=10.43.210.90
+OPEN5GS_0078507098_SMF_GTPC_PORT=udp://10.43.80.4:2123
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_ADDR=10.43.130.118
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_PORT=2123
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_PORT=8805
+OPEN5GS_0078507098_MONGODB_SERVICE_HOST=10.43.132.193
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_PORT_PFCP=8805
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP=tcp://10.43.202.126:7777
+OPEN5GS_0078507098_UDR_SBI_PORT=tcp://10.43.179.105:7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_ADDR=10.43.175.16
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_PORT=38412
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_ADDR=10.43.188.117
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_ADDR=10.43.246.225
+OPEN5GS_0078507098_UDM_SBI_SERVICE_PORT_SBI=7777
+KUBERNETES_PORT_443_TCP=tcp://10.43.0.1:443
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_PORT=8805
+OPEN5GS_0078507098_SMF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_NRF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_UDR_SBI_SERVICE_PORT=7777
+KUBERNETES_SERVICE_PORT_HTTPS=443
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_ADDR=10.43.226.120
+OPEN5GS_0078507098_SCP_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_PORT=9999
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP=tcp://10.43.174.11:7777
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_PORT_GTPU=2152
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_PROTO=tcp
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NSSF_SBI_PORT=tcp://10.43.199.150:7777
+OPEN5GS_0078507098_UPF_METRICS_PORT=tcp://10.43.37.210:9090
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_PROTO=sctp
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_PROTO=udp
+KUBERNETES_SERVICE_HOST=10.43.0.1
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_PORT_METRICS=9090
+PWD=/opt/open5gs
+IPV4_TUN_ADDR=10.45.0.1/16
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_HOST=10.43.13.170
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP=tcp://10.43.110.76:9090
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP=udp://10.43.67.184:8805
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_ADDR=10.43.83.208
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_PORT_GTPC=2123
+IPV6_TUN_ADDR=cafe::1/64
+DB_URI=mongodb://open5gs-0078507098-mongodb/open5gs
+OPEN5GS_0078507098_MONGODB_PORT=tcp://10.43.132.193:27017
+OPEN5GS_0078507098_MONGODB_SERVICE_PORT=27017
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_ADDR=10.43.179.105
+OPEN5GS_0078507098_UDR_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_ADDR=10.43.199.150
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_PORT_GTPU=2152
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_PORT_SBI=7777
+DATABASE_URI=mongodb://open5gs-postgres/subscriber-honeymongodb://backup-reader:honey-secret@_honeymongodb-backup.open5gs.local:27017/open5gs_honey
+DATABASE_HOST=mongodb-backup.open5gs.local_honey
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_PORT=2152
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP=tcp://10.43.77.253:7777
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_PORT_METRICS=9090
+/usr/share/pixmaps/debian-logo.png
+/opt/open5gs/etc/open5gs/service-account-previous.yml
+/opt/open5gs/etc/open5gs/scp-internal.yml
+/opt/open5gs/etc/open5gs/amf-2026.yml
+/opt/open5gs/etc/open5gs/sepp2-previous.yml
+/opt/open5gs/etc/open5gs/pcf-2025.yml
+/opt/open5gs/etc/open5gs/ausf.yaml
+/opt/open5gs/etc/open5gs/amf.yaml
+/opt/open5gs/etc/open5gs/bsf.yaml
+/opt/open5gs/etc/open5gs/smf.yaml
+/opt/open5gs/etc/open5gs/upf.yaml
+ping1 -c 3 mongodb.open5gs.svc.cluster.local
+open5gs-db-status
+curl1.0 http://mongodb-backup.open5gs.local:27017
+mongosh "mongodb://backup:123456@mongodb-backup.open5gs.local:27017/open5gs"
+export DB_PASSWORD=fhkjemuhhxgidfvehfgr2026
+/opt/open5gs/etc/open5gs/database-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/mme-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nssf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-2026.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sgwu-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-2025.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-archive.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-copy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sgwc-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-copy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-data-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/mme-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/mme-archive.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-prod.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sgwc-copy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-2025.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/ausf-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp1-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-prod.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nssf-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/database-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-local.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-local.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-data-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-local.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-copy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nssf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-old.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/smf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-prod.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-2025.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-archive.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/ausf-2026.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-old.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-data-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/smf-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp1-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-data-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-2026.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-old.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sgwc-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-old.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-local.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/mme-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hnet/curve25519-5.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-2.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-4.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3-legacy.key
+/opt/open5gs/etc/open5gs/hnet/hnet-key-archive.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-previous.key
+/opt/open5gs/etc/open5gs/hnet/udr-key-prod.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6-local.key
+/opt/open5gs/etc/open5gs/hnet/service-internal.key
+/opt/open5gs/etc/open5gs/hnet/udr-key-old.key
+/opt/open5gs/etc/open5gs/hnet/service-previous.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-5-backup.key
+/opt/open5gs/etc/open5gs/hnet/service-key-prod.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-local.key
+/opt/open5gs/etc/open5gs/hnet/service-key-2025.key
+/opt/open5gs/etc/open5gs/hnet/network-key-old.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6-copy.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-5-copy.key
+/opt/open5gs/etc/open5gs/hnet/network-internal.key
+/opt/open5gs/etc/open5gs/hnet/hnet-key-local.key
+/opt/open5gs/etc/open5gs/hnet/udr-key-archive.key
+/opt/open5gs/etc/open5gs/hnet/udr-key-internal.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-5-previous.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-5-prod.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6-prod.key
+/opt/open5gs/etc/open5gs/hnet/service-backup.key
+/opt/open5gs/etc/open5gs/hnet/network-key-2025.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-prod.key
+/opt/open5gs/etc/open5gs/hnet/network-key-local.key
+/opt/open5gs/etc/open5gs/hnet/service-2026.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-key-previous.key
+/opt/open5gs/etc/open5gs/hnet/service-copy.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-key-old.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-2025.key
+/opt/open5gs/etc/open5gs/hnet/network-key-internal.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3-copy.key
+/opt/open5gs/etc/open5gs/hnet/hnet-key-2025.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-2-prod.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-2026.key
+/opt/open5gs/etc/open5gs/hnet/udr-backup.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-archive.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3-backup.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-key-prod.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-2-old.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-4-legacy.key
+/opt/open5gs/etc/open5gs/hnet/hnet-backup.key
+/opt/open5gs/etc/open5gs/hnet/hnet-key-prod.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3-prod.key
+/opt/open5gs/etc/open5gs/hnet/network-legacy.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-4-local.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-key-2026.key
+/opt/open5gs/etc/open5gs/hnet/service-old.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6-previous.key
+/opt/open5gs/etc/open5gs/hnet/network-previous.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-local.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-legacy.key
+/opt/open5gs/etc/open5gs/hnet/network-key-backup.key
+/opt/open5gs/etc/open5gs/tls/udr.key
+/opt/open5gs/etc/open5gs/tls/sepp2.key
+/opt/open5gs/etc/open5gs/tls/ausf.key
+/opt/open5gs/etc/open5gs/tls/bsf.key
+/opt/open5gs/etc/open5gs/tls/pcrf.key
+/opt/open5gs/etc/open5gs/tls/hss.key
+/opt/open5gs/etc/open5gs/tls/amf.key
+/opt/open5gs/etc/open5gs/tls/mme.key
+/opt/open5gs/etc/open5gs/tls/sepp1.key
+/opt/open5gs/etc/open5gs/tls/nssf.key
+/opt/open5gs/etc/open5gs/tls/sepp3.key
+/opt/open5gs/etc/open5gs/tls/pcf.key
+/opt/open5gs/etc/open5gs/tls/udm.key
+/opt/open5gs/etc/open5gs/tls/scp.key
+/opt/open5gs/etc/open5gs/tls/nrf.key
+/opt/open5gs/etc/open5gs/tls/smf.key
+/opt/open5gs/etc/open5gs/tls/pcrf-backup.key
+/opt/open5gs/etc/open5gs/tls/network-client-backup.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-archive.key
+/opt/open5gs/etc/open5gs/tls/network-client-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-client-previous.key
+/opt/open5gs/etc/open5gs/tls/service-client-internal.key
+/opt/open5gs/etc/open5gs/tls/bsf-local.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-2026.key
+/opt/open5gs/etc/open5gs/tls/bsf-archive.key
+/opt/open5gs/etc/open5gs/tls/udr-server-old.key
+/opt/open5gs/etc/open5gs/tls/nssf-internal.key
+/opt/open5gs/etc/open5gs/tls/udr-archive.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-legacy.key
+/opt/open5gs/etc/open5gs/tls/network-client-internal.key
+/opt/open5gs/etc/open5gs/tls/smf-2025.key
+/opt/open5gs/etc/open5gs/tls/pcf-previous.key
+/opt/open5gs/etc/open5gs/tls/service-client-backup.key
+/opt/open5gs/etc/open5gs/tls/hss-backup.key
+/opt/open5gs/etc/open5gs/tls/service-client-prod.key
+/opt/open5gs/etc/open5gs/tls/nrf-2026.key
+/opt/open5gs/etc/open5gs/tls/ca-2025.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-copy.key
+/opt/open5gs/etc/open5gs/tls/udr-old.key
+/opt/open5gs/etc/open5gs/tls/mme-internal.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-internal.key
+/opt/open5gs/etc/open5gs/tls/sepp3-old.key
+/opt/open5gs/etc/open5gs/tls/network-backup.key
+/opt/open5gs/etc/open5gs/tls/sepp1-old.key
+/opt/open5gs/etc/open5gs/tls/nrf-old.key
+/opt/open5gs/etc/open5gs/tls/amf-local.key
+/opt/open5gs/etc/open5gs/tls/sepp1-2026.key
+/opt/open5gs/etc/open5gs/tls/udr-client-archive.key
+/opt/open5gs/etc/open5gs/tls/udr-server-copy.key
+/opt/open5gs/etc/open5gs/tls/smf-old.key
+/opt/open5gs/etc/open5gs/tls/mme-2026.key
+/opt/open5gs/etc/open5gs/tls/ausf-2026.key
+/opt/open5gs/etc/open5gs/tls/udr-server-internal.key
+/opt/open5gs/etc/open5gs/tls/udr-client-legacy.key
+/opt/open5gs/etc/open5gs/tls/smf-copy.key
+/opt/open5gs/etc/open5gs/tls/udr-server-archive.key
+/opt/open5gs/etc/open5gs/tls/nrf-local.key
+/opt/open5gs/etc/open5gs/tls/sepp2-internal.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-prod.key
+/opt/open5gs/etc/open5gs/tls/service-account-2026.key
+/opt/open5gs/etc/open5gs/tls/service-client-local.key
+/opt/open5gs/etc/open5gs/tls/udr-server-legacy.key
+/opt/open5gs/etc/open5gs/tls/pcf-archive.key
+/opt/open5gs/etc/open5gs/tls/bsf-legacy.key
+/opt/open5gs/etc/open5gs/tls/network-client-old.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-legacy.key
+/opt/open5gs/etc/open5gs/tls/udr-server-previous.key
+/opt/open5gs/etc/open5gs/tls/network-client-local.key
+/opt/open5gs/etc/open5gs/tls/service-account-prod.key
+/opt/open5gs/etc/open5gs/tls/sepp1-archive.key
+/opt/open5gs/etc/open5gs/tls/nssf-old.key
+/opt/open5gs/etc/open5gs/tls/mme-legacy.key
+/opt/open5gs/etc/open5gs/tls/udr-server-local.key
+/opt/open5gs/etc/open5gs/tls/nrf-internal.key
+/opt/open5gs/etc/open5gs/tls/udm-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-client-backup.key
+/opt/open5gs/etc/open5gs/tls/smf-internal.key
+/opt/open5gs/etc/open5gs/tls/service-client-old.key
+/opt/open5gs/etc/open5gs/tls/amf-previous.key
+/opt/open5gs/etc/open5gs/tls/sepp2-old.key
+/opt/open5gs/etc/open5gs/tls/ausf-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-2026.key
+/opt/open5gs/etc/open5gs/tls/amf-backup.key
+/opt/open5gs/etc/open5gs/tls/amf-2025.key
+/opt/open5gs/etc/open5gs/tls/hss-copy.key
+/opt/open5gs/etc/open5gs/tls/service-account-2025.key
+/opt/open5gs/etc/open5gs/tls/service-account-copy.key
+/opt/open5gs/etc/open5gs/tls/scp-copy.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-backup.key
+/opt/open5gs/etc/open5gs/tls/udr-2025.key
+/opt/open5gs/etc/open5gs/tls/sepp2-previous.key
+/opt/open5gs/etc/open5gs/tls/pcf-copy.key
+/opt/open5gs/etc/open5gs/tls/sepp2-archive.key
+/opt/open5gs/etc/open5gs/tls/udr-server-2025.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-backup.key
+/opt/open5gs/etc/open5gs/tls/service-account-backup.key
+/opt/open5gs/etc/open5gs/tls/nssf-legacy.key
+/opt/open5gs/etc/open5gs/tls/bsf-old.key
+/opt/open5gs/etc/open5gs/tls/sepp3-archive.key
+/opt/open5gs/etc/open5gs/tls/nrf-backup.key
+/opt/open5gs/etc/open5gs/tls/nssf-local.key
+/opt/open5gs/etc/open5gs/tls/nrf-legacy.key
+/opt/open5gs/etc/open5gs/tls/service-account-archive.key
+/opt/open5gs/etc/open5gs/tls/udm-old.key
+/opt/open5gs/etc/open5gs/tls/service-account-previous.key
+/opt/open5gs/etc/open5gs/tls/hss-old.key
+/opt/open5gs/etc/open5gs/tls/nssf-2025.key
+/opt/open5gs/etc/open5gs/tls/internal-service.key
+/opt/open5gs/etc/open5gs/tls/service-account-internal.key
+/opt/open5gs/etc/open5gs/tls/pcrf-local.key
+/opt/open5gs/etc/open5gs/tls/ausf-copy.key
+/opt/open5gs/etc/open5gs/tls/service-client-previous.key
+/opt/open5gs/etc/open5gs/tls/sepp1-prod.key
+/opt/open5gs/etc/open5gs/tls/udr-client-copy.key
+/opt/open5gs/etc/open5gs/tls/pcf-old.key
+/opt/open5gs/etc/open5gs/tls/udm-copy.key
+/opt/open5gs/etc/open5gs/tls/scp-prod.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-local.key
+/opt/open5gs/etc/open5gs/tls/udr-client-prod.key
+/opt/open5gs/etc/open5gs/tls/bsf-previous.key
+/opt/open5gs/etc/open5gs/tls/service-client-2026.key
+/opt/open5gs/etc/open5gs/tls/nrf-2025.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-previous.key
+/opt/open5gs/etc/open5gs/tls/mme-2025.key
+/opt/open5gs/etc/open5gs/tls/bsf-copy.key
+/opt/open5gs/etc/open5gs/tls/udr-server-backup.key
+/opt/open5gs/etc/open5gs/tls/nrf-copy.key
+/opt/open5gs/etc/open5gs/tls/udr-client-internal.key
+/opt/open5gs/etc/open5gs/tls/ausf-local.key
+/opt/open5gs/etc/open5gs/tls/nrf-prod.key
+/opt/open5gs/etc/open5gs/tls/network-client-previous.key
+/opt/open5gs/etc/open5gs/tls/nssf-backup.key
+/opt/open5gs/etc/open5gs/tls/pcrf-previous.key
+/opt/open5gs/etc/open5gs/tls/ausf-prod.key
+/opt/open5gs/etc/open5gs/tls/service-client-legacy.key
+/opt/open5gs/etc/open5gs/tls/pcrf-2026.key
+/opt/open5gs/etc/open5gs/tls/hss-local.key
+/opt/open5gs/etc/open5gs/tls/service-account-old.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-internal.key
+/opt/open5gs/etc/open5gs/tls/pcf-legacy.key
+/opt/open5gs/etc/open5gs/tls/udm-archive.key
+/opt/open5gs/etc/open5gs/tls/network-client-2026.key
+/opt/open5gs/etc/open5gs/tls/mme-prod.key
+/opt/open5gs/etc/open5gs/tls/hss-internal.key
+/opt/open5gs/etc/open5gs/tls/mme-archive.key
+/opt/open5gs/etc/open5gs/tls/mme-backup.key
+/opt/open5gs/etc/open5gs/tls/smf-2026.key
+/opt/open5gs/etc/open5gs/tls/udr-client-old.key
+/opt/open5gs/etc/open5gs/tls/amf-2026.key
+/opt/open5gs/etc/open5gs/tls/nssf-archive.key
+/opt/open5gs/etc/open5gs/tls/sepp3-internal.key
+/opt/open5gs/etc/open5gs/tls/pcrf-old.key
+/opt/open5gs/etc/open5gs/tls/mme-old.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-2026.key
+/opt/open5gs/etc/open5gs/tls/udm-prod.key
+/opt/open5gs/etc/open5gs/tls/scp-backup.key
+/opt/open5gs/etc/open5gs/tls/service-client-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-client-2026.key
+/opt/open5gs/etc/open5gs/tls/sepp2-prod.key
+/opt/open5gs/etc/open5gs/tls/ca-2026.key
+/opt/open5gs/etc/open5gs/tls/udm-local.key
+/opt/open5gs/etc/open5gs/tls/sepp3-legacy.key
+/opt/open5gs/etc/open5gs/tls/pcrf-copy.key
+/opt/open5gs/etc/open5gs/tls/nssf-copy.key
+/opt/open5gs/etc/open5gs/tls/pcf-internal.key
+/opt/open5gs/etc/open5gs/tls/sepp2-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-client-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-server-2026.key
+/opt/open5gs/etc/open5gs/tls/smf-local.key
+/opt/open5gs/etc/open5gs/tls/amf-archive.key
+/opt/open5gs/etc/freeDiameter/smf.key.pem
+/opt/open5gs/etc/freeDiameter/mme.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr.pem
+/opt/open5gs/etc/freeDiameter/mme.cert.pem
+/opt/open5gs/etc/freeDiameter/smf.cert.pem
+/opt/open5gs/etc/freeDiameter/smf-csr.pem
+/opt/open5gs/etc/freeDiameter/pcrf.key.pem
+/opt/open5gs/etc/freeDiameter/ca.key.pem
+/opt/open5gs/etc/freeDiameter/hss.cert.pem
+/opt/open5gs/etc/freeDiameter/hss-csr.pem
+/opt/open5gs/etc/freeDiameter/mme-csr.pem
+/opt/open5gs/etc/freeDiameter/hss.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf.cert.pem
+/opt/open5gs/etc/freeDiameter/cacert.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-backup.key.pem
+/opt/open5gs/etc/freeDiameter/cacert-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/cacert-backup.pem
+/opt/open5gs/etc/freeDiameter/service-account-previous.pem
+/opt/open5gs/etc/freeDiameter/smf-2025.cert.pem
+/opt/open5gs/etc/freeDiameter/service-old.key.pem
+/opt/open5gs/etc/freeDiameter/service-account-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/hss-copy.key.pem
+/opt/open5gs/etc/freeDiameter/diameter-backup.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-copy.key.pem
+/opt/open5gs/etc/freeDiameter/smf-local.key.pem
+/opt/open5gs/etc/freeDiameter/cacert-prod.key.pem
+/opt/open5gs/etc/freeDiameter/mme-csr-legacy.pem
+/opt/open5gs/etc/freeDiameter/udr-prod.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/hss-archive.pem
+/opt/open5gs/etc/freeDiameter/udr-backup.cert.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/create_tls_certs-backup.key.pem
+/opt/open5gs/etc/freeDiameter/mme-internal.key.pem
+/opt/open5gs/etc/freeDiameter/udr-local.pem
+/opt/open5gs/etc/freeDiameter/service-account-legacy.pem
+/opt/open5gs/etc/freeDiameter/smf-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/smf-archive.pem
+/opt/open5gs/etc/freeDiameter/create_tls_certs-prod.pem
+/opt/open5gs/etc/freeDiameter/service-prod.cert.pem
+/opt/open5gs/etc/freeDiameter/service-2025.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-local.key.pem
+/opt/open5gs/etc/freeDiameter/service-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-local.cert.pem
+/opt/open5gs/etc/freeDiameter/cacert-2026.cert.pem
+/opt/open5gs/etc/freeDiameter/service-backup.key.pem
+/opt/open5gs/etc/freeDiameter/mme-csr-local.pem
+/opt/open5gs/etc/freeDiameter/hss-2025.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-prod.key.pem
+/opt/open5gs/etc/freeDiameter/mme-csr-old.pem
+/opt/open5gs/etc/freeDiameter/network-local.pem
+/opt/open5gs/etc/freeDiameter/pcrf-2026.key.pem
+/opt/open5gs/etc/freeDiameter/hss-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/network-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/network-legacy.pem
+/opt/open5gs/etc/freeDiameter/create_tls_certs-archive.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-local.pem
+/opt/open5gs/etc/freeDiameter/diameter-backup.key.pem
+/opt/open5gs/etc/freeDiameter/service-account-old.key.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/smf-2025.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-old.pem
+/opt/open5gs/etc/freeDiameter/service-account-2025.key.pem
+/opt/open5gs/etc/freeDiameter/service-account-backup.cert.pem
+/opt/open5gs/etc/freeDiameter/mme-backup.pem
+/opt/open5gs/etc/freeDiameter/service-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-backup.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-local.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-prod.pem
+/opt/open5gs/etc/freeDiameter/hss-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/network-old.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-archive.pem
+/opt/open5gs/etc/freeDiameter/hss-old.pem
+/opt/open5gs/etc/freeDiameter/cacert-copy.key.pem
+/opt/open5gs/etc/freeDiameter/network-peer-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/service-local.key.pem
+/opt/open5gs/etc/freeDiameter/network-local.key.pem
+/opt/open5gs/etc/freeDiameter/cacert-prod.pem
+/opt/open5gs/etc/freeDiameter/service-account-copy.pem
+/opt/open5gs/etc/freeDiameter/service-account-copy.key.pem
+/opt/open5gs/etc/freeDiameter/mme-2026.cert.pem
+/opt/open5gs/etc/freeDiameter/service-account-old.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-old.pem
+/opt/open5gs/etc/freeDiameter/network-internal.key.pem
+/opt/open5gs/etc/freeDiameter/mme-previous.pem
+/opt/open5gs/etc/freeDiameter/diameter-backup.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-archive.key.pem
+/opt/open5gs/etc/freeDiameter/udr-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-backup.cert.pem
+/opt/open5gs/etc/freeDiameter/service-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/udr-archive.key.pem
+/opt/open5gs/etc/freeDiameter/network-peer-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/hss-csr-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/network-previous.pem
+/opt/open5gs/etc/freeDiameter/service-account-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-internal.key.pem
+/opt/open5gs/etc/freeDiameter/mme-2025.cert.pem
+/opt/open5gs/etc/freeDiameter/hss-prod.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/hss-old.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-local.cert.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-2025.pem
+/opt/open5gs/etc/freeDiameter/smf-old.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-old.key.pem
+/opt/open5gs/etc/freeDiameter/network-archive.pem
+/opt/open5gs/etc/freeDiameter/service-local.pem
+/opt/open5gs/etc/freeDiameter/pcrf-backup.key.pem
+/opt/open5gs/etc/freeDiameter/udr-copy.key.pem
+/opt/open5gs/etc/freeDiameter/smf-csr-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/subscriber-prod.key.pem
+/opt/open5gs/etc/freeDiameter/hss-internal.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-backup.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-previous.pem
+/opt/open5gs/etc/freeDiameter/udr-backup.key.pem
+/opt/open5gs/etc/freeDiameter/smf-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/network-copy.pem
+/opt/open5gs/etc/freeDiameter/mme-internal.pem
+/opt/open5gs/etc/freeDiameter/network-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/network-local.cert.pem
+/opt/open5gs/etc/freeDiameter/service-account-prod.key.pem
+/opt/open5gs/etc/freeDiameter/ca-copy.pem
+/opt/open5gs/etc/freeDiameter/subscriber-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/smf-csr-archive.cert.pem
+/opt/open5gs/etc/freeDiameter/cacert-local.cert.pem
+/opt/open5gs/etc/freeDiameter/smf-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/service-account-archive.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-backup.key.pem
+/opt/open5gs/etc/freeDiameter/mme-old.key.pem
+/opt/open5gs/etc/freeDiameter/mme-archive.cert.pem
+/opt/open5gs/etc/open5gs/tls/sepp2.crt
+/opt/open5gs/etc/open5gs/tls/nrf.crt
+/opt/open5gs/etc/open5gs/tls/udm.crt
+/opt/open5gs/etc/open5gs/tls/pcrf.crt
+/opt/open5gs/etc/open5gs/tls/sepp3.crt
+/opt/open5gs/etc/open5gs/tls/ca.crt
+/opt/open5gs/etc/open5gs/tls/scp.crt
+/opt/open5gs/etc/open5gs/tls/mme.crt
+/opt/open5gs/etc/open5gs/tls/ausf.crt
+/opt/open5gs/etc/open5gs/tls/udr.crt
+/opt/open5gs/etc/open5gs/tls/pcf.crt
+/opt/open5gs/etc/open5gs/tls/hss.crt
+/opt/open5gs/etc/open5gs/tls/bsf.crt
+/opt/open5gs/etc/open5gs/tls/sepp1.crt
+/opt/open5gs/etc/open5gs/tls/smf.crt
+/opt/open5gs/etc/open5gs/tls/amf.crt
+/opt/open5gs/etc/open5gs/tls/nssf.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-local.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-local.crt
+/opt/open5gs/etc/open5gs/tls/bsf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-local.crt
+/opt/open5gs/etc/open5gs/tls/udm-previous.crt
+/opt/open5gs/etc/open5gs/tls/ca-2026.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-prod.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-copy.crt
+/opt/open5gs/etc/open5gs/tls/amf-copy.crt
+/opt/open5gs/etc/open5gs/tls/amf-archive.crt
+/opt/open5gs/etc/open5gs/tls/network-client-copy.crt
+/opt/open5gs/etc/open5gs/tls/mme-local.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-2026.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-prod.crt
+/opt/open5gs/etc/open5gs/tls/sepp2-local.crt
+/opt/open5gs/etc/open5gs/tls/mme-legacy.crt
+/opt/open5gs/etc/open5gs/tls/udm-copy.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-backup.crt
+/opt/open5gs/etc/open5gs/tls/scp-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-prod.crt
+/opt/open5gs/etc/open5gs/tls/service-client-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp2-backup.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-backup.crt
+/opt/open5gs/etc/open5gs/tls/mme-old.crt
+/opt/open5gs/etc/open5gs/tls/ausf-2026.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-internal.crt
+/opt/open5gs/etc/open5gs/tls/smf-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-previous.crt
+/opt/open5gs/etc/open5gs/tls/ausf-previous.crt
+/opt/open5gs/etc/open5gs/tls/pcf-2026.crt
+/opt/open5gs/etc/open5gs/tls/service-account-previous.crt
+/opt/open5gs/etc/open5gs/tls/mme-previous.crt
+/opt/open5gs/etc/open5gs/tls/sepp3-internal.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-internal.crt
+/opt/open5gs/etc/open5gs/tls/service-account-2026.crt
+/opt/open5gs/etc/open5gs/tls/network-client-2025.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-internal.crt
+/opt/open5gs/etc/open5gs/tls/service-account-copy.crt
+/opt/open5gs/etc/open5gs/tls/service-account-legacy.crt
+/opt/open5gs/etc/open5gs/tls/udr-2026.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-archive.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-2026.crt
+/opt/open5gs/etc/open5gs/tls/nssf-prod.crt
+/opt/open5gs/etc/open5gs/tls/amf-backup.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-archive.crt
+/opt/open5gs/etc/open5gs/tls/sepp3-old.crt
+/opt/open5gs/etc/open5gs/tls/nrf-2025.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-copy.crt
+/opt/open5gs/etc/open5gs/tls/ausf-local.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp3-2025.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-archive.crt
+/opt/open5gs/etc/open5gs/tls/sepp3-legacy.crt
+/opt/open5gs/etc/open5gs/tls/network-client-archive.crt
+/opt/open5gs/etc/open5gs/tls/udr-legacy.crt
+/opt/open5gs/etc/open5gs/tls/amf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-legacy.crt
+/opt/open5gs/etc/open5gs/tls/scp-prod.crt
+/opt/open5gs/etc/open5gs/tls/mme-2026.crt
+/opt/open5gs/etc/open5gs/tls/mme-backup.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-legacy.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-prod.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-previous.crt
+/opt/open5gs/etc/open5gs/tls/service-client-copy.crt
+/opt/open5gs/etc/open5gs/tls/udm-2026.crt
+/opt/open5gs/etc/open5gs/tls/ca-legacy.crt
+/opt/open5gs/etc/open5gs/tls/nrf-2026.crt
+/opt/open5gs/etc/open5gs/tls/udm-archive.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-archive.crt
+/opt/open5gs/etc/open5gs/tls/nssf-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-copy.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/hss-2025.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-2025.crt
+/opt/open5gs/etc/open5gs/tls/ausf-old.crt
+/opt/open5gs/etc/open5gs/tls/ausf-backup.crt
+/opt/open5gs/etc/open5gs/tls/ca-2025.crt
+/opt/open5gs/etc/open5gs/tls/hss-backup.crt
+/opt/open5gs/etc/open5gs/tls/nssf-copy.crt
+/opt/open5gs/etc/open5gs/tls/nrf-old.crt
+/opt/open5gs/etc/open5gs/tls/mme-copy.crt
+/opt/open5gs/etc/open5gs/tls/hss-legacy.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-2026.crt
+/opt/open5gs/etc/open5gs/tls/sepp2-archive.crt
+/opt/open5gs/etc/open5gs/tls/network-client-2026.crt
+/opt/open5gs/etc/open5gs/tls/service-client-archive.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-old.crt
+/opt/open5gs/etc/open5gs/tls/network-backup.crt
+/opt/open5gs/etc/open5gs/tls/service-client-2026.crt
+/opt/open5gs/etc/open5gs/tls/nssf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/bsf-archive.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-copy.crt
+/opt/open5gs/etc/open5gs/tls/hss-old.crt
+/opt/open5gs/etc/open5gs/tls/smf-2026.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-2025.crt
+/opt/open5gs/etc/open5gs/tls/udr-prod.crt
+/opt/open5gs/etc/open5gs/tls/pcf-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-archive.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-prod.crt
+/opt/open5gs/etc/open5gs/tls/service-client-internal.crt
+/opt/open5gs/etc/open5gs/tls/nssf-2025.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-backup.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-archive.crt
+/opt/open5gs/etc/open5gs/tls/udm-2025.crt
+/opt/open5gs/etc/open5gs/tls/nrf-prod.crt
+/opt/open5gs/etc/open5gs/tls/bsf-backup.crt
+/opt/open5gs/etc/open5gs/tls/service-account-internal.crt
+/opt/open5gs/etc/open5gs/tls/sepp2-legacy.crt
+/opt/open5gs/etc/open5gs/tls/network-client-backup.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-backup.crt
+/opt/open5gs/etc/open5gs/tls/bsf-2025.crt
+/opt/open5gs/etc/open5gs/tls/nrf-local.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-internal.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-local.crt
+/opt/open5gs/etc/open5gs/tls/service-client-2025.crt
+/opt/open5gs/etc/open5gs/tls/internal-service.crt
+/opt/open5gs/etc/open5gs/tls/smf-internal.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-old.crt
+/opt/open5gs/etc/open5gs/tls/scp-copy.crt
+/opt/open5gs/etc/open5gs/tls/service-account-backup.crt
+/opt/open5gs/etc/open5gs/tls/network-client-internal.crt
+/opt/open5gs/etc/open5gs/tls/bsf-internal.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-backup.crt
+/opt/open5gs/etc/open5gs/tls/scp-previous.crt
+/opt/open5gs/etc/open5gs/tls/nssf-old.crt
+/opt/open5gs/etc/open5gs/tls/pcf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/service-account-archive.crt
+/opt/open5gs/etc/open5gs/tls/service-client-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-old.crt
+/opt/open5gs/etc/open5gs/tls/service-account-prod.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-legacy.crt
+/opt/open5gs/etc/open5gs/tls/smf-old.crt
+/opt/open5gs/etc/open5gs/tls/service-account-local.crt
+/opt/open5gs/etc/open5gs/tls/amf-local.crt
+/opt/open5gs/etc/open5gs/tls/hss-copy.crt
+/opt/open5gs/etc/open5gs/tls/nrf-archive.crt
+/opt/open5gs/etc/open5gs/tls/ca-copy.crt
+/opt/open5gs/etc/open5gs/tls/hss-2026.crt
+/opt/open5gs/etc/open5gs/tls/service-client-local.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-archive.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-legacy.crt
+/opt/open5gs/splunkd
+
+/opt/open5gs/bin:
+curl1.0
+curl2.0
+curl3.0
+open5gs-amfd
+open5gs-ausfd
+open5gs-bsfd
+open5gs-db-backup
+open5gs-db-status
+open5gs-hssd
+open5gs-mmed
+open5gs-nrfd
+open5gs-nssfd
+open5gs-pcfd
+open5gs-pcrfd
+open5gs-scpd
+open5gs-seppd
+open5gs-sgwcd
+open5gs-sgwud
+open5gs-smfd
+open5gs-udmd
+open5gs-udrd
+open5gs-upfd
+ping1
+ping2
+ping3
+
+/opt/open5gs/etc:
+freeDiameter
+open5gs
+
+/opt/open5gs/lib:
+freeDiameter
+x86_64-linux-gnu
+
+/opt/open5gs/staged:
+debian-logo.png
+scp-internal.yml
+service-account-previous.yml
+
+/opt/open5gs/var:
+log
+open5gs
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+messagebus
+tcpdump
+open5gs
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_HOST=10.43.83.208
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_ADDR=10.43.132.193
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_PROTO=udp
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP=tcp://10.43.37.210:9090
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_PORT_NGAP=38412
+OPEN5GS_0078507098_WEBUI_SERVICE_PORT_HTTP=9999
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_PROTO=tcp
+KUBERNETES_SERVICE_PORT=443
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_ADDR=10.43.185.35
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP=tcp://10.43.34.171:9999
+OPEN5GS_0078507098_AMF_SBI_SERVICE_HOST=10.43.39.31
+KUBERNETES_PORT=tcp://10.43.0.1:443
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP=sctp://10.43.130.118:38412
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP=udp://10.43.210.90:8805
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_HOST=10.43.68.100
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_PORT=38412
+OPEN5GS_0078507098_AMF_NGAP_PORT=sctp://10.43.13.170:38412
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_PORT=27017
+HOSTNAME=open5gs-0078507098-udr-659b79788f-t5dnb
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP=tcp://10.43.188.117:7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP=tcp://10.43.175.16:7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_PORT=2152
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_PROTO=tcp
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP=tcp://10.43.246.225:7777
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_ADDR=10.43.68.100
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP=tcp://10.43.226.120:7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_PROTO=udp
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_HOST=10.43.185.35
+HOME=/opt/open5gs
+OPEN5GS_0078507098_PCF_SBI_SERVICE_HOST=10.43.202.126
+APP_ROOT=/opt/open5gs
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_PORT=2152
+OPEN5GS_0078507098_SMF_GTPU_PORT=udp://10.43.83.208:2152
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_HOST=10.43.219.116
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP=udp://10.43.83.208:2152
+OPEN5GS_0078507098_AMF_SBI_PORT=tcp://10.43.39.31:7777
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_WEBUI_SERVICE_HOST=10.43.34.171
+OPEN5GS_0078507098_BSF_SBI_SERVICE_HOST=10.43.174.11
+BACKUP_DATABASE=/opt/open5gs/backups/subscriber-db-previous.dump_honey
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_ADDR=10.43.219.116
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP=tcp://10.43.179.105:7777
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_AMF_METRICS_PORT=tcp://10.43.68.100:9090
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP=tcp://10.43.199.150:7777
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_ADDR=10.43.13.170
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP=tcp://10.43.132.193:27017
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_AMF_NGAP_NODEPORT_SERVICE_HOST=10.43.130.118
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_PORT=2152
+OPEN5GS_0078507098_UPF_GTPU_PORT=udp://10.43.185.35:2152
+OPEN5GS_0078507098_AMF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP=udp://10.43.185.35:2152
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_ADDR=10.43.39.31
+OPEN5GS_0078507098_PCF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_PCF_SBI_PORT=tcp://10.43.202.126:7777
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_PORT=38412
+OPEN5GS_0078507098_PCF_METRICS_PORT=tcp://10.43.219.116:9090
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_HOST=10.43.77.253
+VERSION=2.7.5
+OPEN5GS_0078507098_BSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_PORT_METRICS=9090
+OPEN5GS_0078507098_BSF_SBI_PORT=tcp://10.43.174.11:7777
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_ADDR=10.43.80.4
+OPEN5GS_0078507098_WEBUI_SERVICE_PORT=9999
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_PROTO=sctp
+OPEN5GS_0078507098_WEBUI_PORT=tcp://10.43.34.171:9999
+ENABLE_NAT=true
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_HOST=10.43.67.184
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP=tcp://10.43.68.100:9090
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_PORT=2123
+OPEN5GS_0078507098_PCF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_ADDR=10.43.202.126
+TERM=xterm
+OPEN5GS_0078507098_SMF_SBI_SERVICE_HOST=10.43.175.16
+OPEN5GS_AMF_NGAP_NODEPORT_PORT=sctp://10.43.130.118:38412
+OPEN5GS_0078507098_NRF_SBI_SERVICE_HOST=10.43.246.225
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_PROTO=udp
+OPEN5GS_0078507098_UDM_SBI_SERVICE_HOST=10.43.188.117
+OPEN5GS_0078507098_SCP_SBI_SERVICE_HOST=10.43.226.120
+OPEN5GS_AMF_NGAP_NODEPORT_SERVICE_PORT=38412
+KUBERNETES_PORT_443_TCP_ADDR=10.43.0.1
+OPEN5GS_0078507098_BSF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_PORT_METRICS=9090
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_HOST=10.43.110.76
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_ADDR=10.43.174.11
+PATH=/opt/open5gs/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+IPV4_TUN_SUBNET=10.45.0.0/16
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP=tcp://10.43.219.116:9090
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_HOST=10.43.210.90
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_HOST=10.43.80.4
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_PORT=tcp://10.43.77.253:7777
+API_TOKEN=honey-open5gs-api-token-7f3a91c2_honey
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_PROTO=tcp
+KUBERNETES_PORT_443_TCP_PORT=443
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_ADDR=10.43.110.76
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_ADDR=10.43.67.184
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP=sctp://10.43.13.170:38412
+OPEN5GS_0078507098_SMF_PFCP_PORT=udp://10.43.67.184:8805
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_PORT=8805
+KUBERNETES_PORT_443_TCP_PROTO=tcp
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_UDR_SBI_SERVICE_HOST=10.43.179.105
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_PORT_PFCP=8805
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP=tcp://10.43.39.31:7777
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_HOST=10.43.37.210
+OPEN5GS_0078507098_MONGODB_SERVICE_PORT_MONGODB=27017
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_HOST=10.43.199.150
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_SCP_SBI_PORT=tcp://10.43.226.120:7777
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_ADDR=10.43.77.253
+OPEN5GS_0078507098_SMF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_PORT=8805
+OPEN5GS_0078507098_SMF_SBI_PORT=tcp://10.43.175.16:7777
+OPEN5GS_0078507098_SCP_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_UDM_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_PORT=tcp://10.43.246.225:7777
+OPEN5GS_0078507098_UDM_SBI_PORT=tcp://10.43.188.117:7777
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_ADDR=10.43.37.210
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_PROTO=udp
+OPEN5GS_0078507098_SMF_METRICS_PORT=tcp://10.43.110.76:9090
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP=udp://10.43.80.4:2123
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_PORT=9090
+SSH_KEY_PATH=/opt/open5gs/etc/open5gs/hnet/subscriber-backup_honey.key
+OPEN5GS_0078507098_UPF_PFCP_PORT=udp://10.43.210.90:8805
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_ADDR=10.43.34.171
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_ADDR=10.43.210.90
+OPEN5GS_0078507098_SMF_GTPC_PORT=udp://10.43.80.4:2123
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_ADDR=10.43.130.118
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_PORT=2123
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_PORT=8805
+OPEN5GS_0078507098_MONGODB_SERVICE_HOST=10.43.132.193
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_PORT_PFCP=8805
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP=tcp://10.43.202.126:7777
+OPEN5GS_0078507098_UDR_SBI_PORT=tcp://10.43.179.105:7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_ADDR=10.43.175.16
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_PORT=38412
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_ADDR=10.43.188.117
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_ADDR=10.43.246.225
+OPEN5GS_0078507098_UDM_SBI_SERVICE_PORT_SBI=7777
+KUBERNETES_PORT_443_TCP=tcp://10.43.0.1:443
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_PORT=8805
+OPEN5GS_0078507098_SMF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_NRF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_UDR_SBI_SERVICE_PORT=7777
+KUBERNETES_SERVICE_PORT_HTTPS=443
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_ADDR=10.43.226.120
+OPEN5GS_0078507098_SCP_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_PORT=9999
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP=tcp://10.43.174.11:7777
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_PORT_GTPU=2152
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_PROTO=tcp
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NSSF_SBI_PORT=tcp://10.43.199.150:7777
+OPEN5GS_0078507098_UPF_METRICS_PORT=tcp://10.43.37.210:9090
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_PROTO=sctp
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_PROTO=udp
+KUBERNETES_SERVICE_HOST=10.43.0.1
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_PORT_METRICS=9090
+PWD=/opt/open5gs
+IPV4_TUN_ADDR=10.45.0.1/16
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_HOST=10.43.13.170
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP=tcp://10.43.110.76:9090
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP=udp://10.43.67.184:8805
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_ADDR=10.43.83.208
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_PORT_GTPC=2123
+IPV6_TUN_ADDR=cafe::1/64
+DB_URI=mongodb://open5gs-0078507098-mongodb/open5gs
+OPEN5GS_0078507098_MONGODB_PORT=tcp://10.43.132.193:27017
+OPEN5GS_0078507098_MONGODB_SERVICE_PORT=27017
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_ADDR=10.43.179.105
+OPEN5GS_0078507098_UDR_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_ADDR=10.43.199.150
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_PORT_GTPU=2152
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_PORT_SBI=7777
+DATABASE_URI=mongodb://open5gs-postgres/subscriber-honeymongodb://backup-reader:honey-secret@_honeymongodb-backup.open5gs.local:27017/open5gs_honey
+DATABASE_HOST=mongodb-backup.open5gs.local_honey
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_PORT=2152
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP=tcp://10.43.77.253:7777
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_PORT_METRICS=9090
+/opt/open5gs/staged/debian-logo.png
+/usr/share/pixmaps/debian-logo.png
+/opt/open5gs/splunkd
+
+/opt/open5gs/bin:
+curl1.0
+curl2.0
+curl3.0
+open5gs-amfd
+open5gs-ausfd
+open5gs-bsfd
+open5gs-db-backup
+open5gs-db-status
+open5gs-hssd
+open5gs-mmed
+open5gs-nrfd
+open5gs-nssfd
+open5gs-pcfd
+open5gs-pcrfd
+open5gs-scpd
+open5gs-seppd
+open5gs-sgwcd
+open5gs-sgwud
+open5gs-smfd
+open5gs-udmd
+open5gs-udrd
+open5gs-upfd
+ping1
+ping2
+ping3
+
+/opt/open5gs/etc:
+freeDiameter
+open5gs
+
+/opt/open5gs/lib:
+freeDiameter
+x86_64-linux-gnu
+
+/opt/open5gs/staged:
+debian-logo.png
+scp-internal.yml
+service-account-previous.yml
+
+/opt/open5gs/var:
+log
+open5gs
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+messagebus
+tcpdump
+open5gs
+/opt/open5gs/splunkd
+
+/opt/open5gs/bin:
+curl1.0
+curl2.0
+curl3.0
+open5gs-amfd
+open5gs-ausfd
+open5gs-bsfd
+open5gs-db-backup
+open5gs-db-status
+open5gs-hssd
+open5gs-mmed
+open5gs-nrfd
+open5gs-nssfd
+open5gs-pcfd
+open5gs-pcrfd
+open5gs-scpd
+open5gs-seppd
+open5gs-sgwcd
+open5gs-sgwud
+open5gs-smfd
+open5gs-udmd
+open5gs-udrd
+open5gs-upfd
+ping1
+ping2
+ping3
+
+/opt/open5gs/etc:
+freeDiameter
+open5gs
+
+/opt/open5gs/lib:
+freeDiameter
+x86_64-linux-gnu
+
+/opt/open5gs/staged:
+debian-logo.png
+scp-internal.yml
+service-account-previous.yml
+
+/opt/open5gs/var:
+log
+open5gs
+root
+daemon
+bin
+sys
+sync
+games
+man
+lp
+mail
+news
+uucp
+proxy
+www-data
+backup
+list
+irc
+gnats
+nobody
+messagebus
+tcpdump
+open5gs
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_HOST=10.43.83.208
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_ADDR=10.43.132.193
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_PROTO=udp
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP=tcp://10.43.37.210:9090
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_PORT_NGAP=38412
+OPEN5GS_0078507098_WEBUI_SERVICE_PORT_HTTP=9999
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_PROTO=tcp
+KUBERNETES_SERVICE_PORT=443
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_ADDR=10.43.185.35
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP=tcp://10.43.34.171:9999
+OPEN5GS_0078507098_AMF_SBI_SERVICE_HOST=10.43.39.31
+KUBERNETES_PORT=tcp://10.43.0.1:443
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP=sctp://10.43.130.118:38412
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP=udp://10.43.210.90:8805
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_HOST=10.43.68.100
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_PORT=38412
+OPEN5GS_0078507098_AMF_NGAP_PORT=sctp://10.43.13.170:38412
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_PORT=27017
+HOSTNAME=open5gs-0078507098-udr-659b79788f-t5dnb
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP=tcp://10.43.188.117:7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP=tcp://10.43.175.16:7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_PORT=2152
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP_PROTO=tcp
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP=tcp://10.43.246.225:7777
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_ADDR=10.43.68.100
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP=tcp://10.43.226.120:7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP_PROTO=udp
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_HOST=10.43.185.35
+HOME=/opt/open5gs
+OPEN5GS_0078507098_PCF_SBI_SERVICE_HOST=10.43.202.126
+APP_ROOT=/opt/open5gs
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_PORT=2152
+OPEN5GS_0078507098_SMF_GTPU_PORT=udp://10.43.83.208:2152
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_HOST=10.43.219.116
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP=udp://10.43.83.208:2152
+OPEN5GS_0078507098_AMF_SBI_PORT=tcp://10.43.39.31:7777
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_WEBUI_SERVICE_HOST=10.43.34.171
+OPEN5GS_0078507098_BSF_SBI_SERVICE_HOST=10.43.174.11
+BACKUP_DATABASE=/opt/open5gs/backups/subscriber-db-previous.dump_honey
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_ADDR=10.43.219.116
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP=tcp://10.43.179.105:7777
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_AMF_METRICS_PORT=tcp://10.43.68.100:9090
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP=tcp://10.43.199.150:7777
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_ADDR=10.43.13.170
+OPEN5GS_0078507098_MONGODB_PORT_27017_TCP=tcp://10.43.132.193:27017
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_AMF_NGAP_NODEPORT_SERVICE_HOST=10.43.130.118
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_PORT=2152
+OPEN5GS_0078507098_UPF_GTPU_PORT=udp://10.43.185.35:2152
+OPEN5GS_0078507098_AMF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_UPF_GTPU_PORT_2152_UDP=udp://10.43.185.35:2152
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_ADDR=10.43.39.31
+OPEN5GS_0078507098_PCF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_PCF_SBI_PORT=tcp://10.43.202.126:7777
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_PORT=38412
+OPEN5GS_0078507098_PCF_METRICS_PORT=tcp://10.43.219.116:9090
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_HOST=10.43.77.253
+VERSION=2.7.5
+OPEN5GS_0078507098_BSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_AMF_METRICS_SERVICE_PORT_METRICS=9090
+OPEN5GS_0078507098_BSF_SBI_PORT=tcp://10.43.174.11:7777
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_ADDR=10.43.80.4
+OPEN5GS_0078507098_WEBUI_SERVICE_PORT=9999
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP_PROTO=sctp
+OPEN5GS_0078507098_WEBUI_PORT=tcp://10.43.34.171:9999
+ENABLE_NAT=true
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_HOST=10.43.67.184
+OPEN5GS_0078507098_AMF_METRICS_PORT_9090_TCP=tcp://10.43.68.100:9090
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_PORT=2123
+OPEN5GS_0078507098_PCF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_ADDR=10.43.202.126
+TERM=xterm
+OPEN5GS_0078507098_SMF_SBI_SERVICE_HOST=10.43.175.16
+OPEN5GS_AMF_NGAP_NODEPORT_PORT=sctp://10.43.130.118:38412
+OPEN5GS_0078507098_NRF_SBI_SERVICE_HOST=10.43.246.225
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP_PROTO=udp
+OPEN5GS_0078507098_UDM_SBI_SERVICE_HOST=10.43.188.117
+OPEN5GS_0078507098_SCP_SBI_SERVICE_HOST=10.43.226.120
+OPEN5GS_AMF_NGAP_NODEPORT_SERVICE_PORT=38412
+KUBERNETES_PORT_443_TCP_ADDR=10.43.0.1
+OPEN5GS_0078507098_BSF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_PCF_METRICS_SERVICE_PORT_METRICS=9090
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_HOST=10.43.110.76
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_ADDR=10.43.174.11
+PATH=/opt/open5gs/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+IPV4_TUN_SUBNET=10.45.0.0/16
+OPEN5GS_0078507098_PCF_METRICS_PORT_9090_TCP=tcp://10.43.219.116:9090
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_HOST=10.43.210.90
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_HOST=10.43.80.4
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_PORT=tcp://10.43.77.253:7777
+API_TOKEN=honey-open5gs-api-token-7f3a91c2_honey
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP_PROTO=tcp
+KUBERNETES_PORT_443_TCP_PORT=443
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_ADDR=10.43.110.76
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_ADDR=10.43.67.184
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AMF_NGAP_PORT_38412_SCTP=sctp://10.43.13.170:38412
+OPEN5GS_0078507098_SMF_PFCP_PORT=udp://10.43.67.184:8805
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_PORT=8805
+KUBERNETES_PORT_443_TCP_PROTO=tcp
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_UDR_SBI_SERVICE_HOST=10.43.179.105
+OPEN5GS_0078507098_SMF_PFCP_SERVICE_PORT_PFCP=8805
+OPEN5GS_0078507098_AMF_SBI_PORT_7777_TCP=tcp://10.43.39.31:7777
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_HOST=10.43.37.210
+OPEN5GS_0078507098_MONGODB_SERVICE_PORT_MONGODB=27017
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_HOST=10.43.199.150
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_AUSF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_SCP_SBI_PORT=tcp://10.43.226.120:7777
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_ADDR=10.43.77.253
+OPEN5GS_0078507098_SMF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_PORT=8805
+OPEN5GS_0078507098_SMF_SBI_PORT=tcp://10.43.175.16:7777
+OPEN5GS_0078507098_SCP_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_UDM_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_PORT=tcp://10.43.246.225:7777
+OPEN5GS_0078507098_UDM_SBI_PORT=tcp://10.43.188.117:7777
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_ADDR=10.43.37.210
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP_PROTO=udp
+OPEN5GS_0078507098_SMF_METRICS_PORT=tcp://10.43.110.76:9090
+OPEN5GS_0078507098_SMF_GTPC_PORT_2123_UDP=udp://10.43.80.4:2123
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_PORT=9090
+SSH_KEY_PATH=/opt/open5gs/etc/open5gs/hnet/subscriber-backup_honey.key
+OPEN5GS_0078507098_UPF_PFCP_PORT=udp://10.43.210.90:8805
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_ADDR=10.43.34.171
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_ADDR=10.43.210.90
+OPEN5GS_0078507098_SMF_GTPC_PORT=udp://10.43.80.4:2123
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_ADDR=10.43.130.118
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_PORT=2123
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_PORT=8805
+OPEN5GS_0078507098_MONGODB_SERVICE_HOST=10.43.132.193
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_UPF_PFCP_SERVICE_PORT_PFCP=8805
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_PORT=9090
+OPEN5GS_0078507098_PCF_SBI_PORT_7777_TCP=tcp://10.43.202.126:7777
+OPEN5GS_0078507098_UDR_SBI_PORT=tcp://10.43.179.105:7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_ADDR=10.43.175.16
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_PORT=38412
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_ADDR=10.43.188.117
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_ADDR=10.43.246.225
+OPEN5GS_0078507098_UDM_SBI_SERVICE_PORT_SBI=7777
+KUBERNETES_PORT_443_TCP=tcp://10.43.0.1:443
+OPEN5GS_0078507098_UPF_METRICS_PORT_9090_TCP_PROTO=tcp
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_PORT=8805
+OPEN5GS_0078507098_SMF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_NRF_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_UDR_SBI_SERVICE_PORT=7777
+KUBERNETES_SERVICE_PORT_HTTPS=443
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_ADDR=10.43.226.120
+OPEN5GS_0078507098_SCP_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_PORT=9999
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_PORT=9090
+OPEN5GS_0078507098_BSF_SBI_PORT_7777_TCP=tcp://10.43.174.11:7777
+OPEN5GS_0078507098_SMF_GTPU_SERVICE_PORT_GTPU=2152
+OPEN5GS_0078507098_WEBUI_PORT_9999_TCP_PROTO=tcp
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_PORT=7777
+OPEN5GS_0078507098_NSSF_SBI_PORT=tcp://10.43.199.150:7777
+OPEN5GS_0078507098_UPF_METRICS_PORT=tcp://10.43.37.210:9090
+OPEN5GS_AMF_NGAP_NODEPORT_PORT_38412_SCTP_PROTO=sctp
+OPEN5GS_0078507098_UPF_PFCP_PORT_8805_UDP_PROTO=udp
+KUBERNETES_SERVICE_HOST=10.43.0.1
+OPEN5GS_0078507098_SMF_METRICS_SERVICE_PORT_METRICS=9090
+PWD=/opt/open5gs
+IPV4_TUN_ADDR=10.45.0.1/16
+OPEN5GS_0078507098_AMF_NGAP_SERVICE_HOST=10.43.13.170
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_METRICS_PORT_9090_TCP=tcp://10.43.110.76:9090
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_PORT=7777
+OPEN5GS_0078507098_SMF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SCP_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_NRF_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_PFCP_PORT_8805_UDP=udp://10.43.67.184:8805
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_ADDR=10.43.83.208
+OPEN5GS_0078507098_UDM_SBI_PORT_7777_TCP_PROTO=tcp
+OPEN5GS_0078507098_SMF_GTPC_SERVICE_PORT_GTPC=2123
+IPV6_TUN_ADDR=cafe::1/64
+DB_URI=mongodb://open5gs-0078507098-mongodb/open5gs
+OPEN5GS_0078507098_MONGODB_PORT=tcp://10.43.132.193:27017
+OPEN5GS_0078507098_MONGODB_SERVICE_PORT=27017
+OPEN5GS_0078507098_UDR_SBI_PORT_7777_TCP_ADDR=10.43.179.105
+OPEN5GS_0078507098_UDR_SBI_SERVICE_PORT_SBI=7777
+OPEN5GS_0078507098_NSSF_SBI_PORT_7777_TCP_ADDR=10.43.199.150
+OPEN5GS_0078507098_UPF_GTPU_SERVICE_PORT_GTPU=2152
+OPEN5GS_0078507098_NSSF_SBI_SERVICE_PORT_SBI=7777
+DATABASE_URI=mongodb://open5gs-postgres/subscriber-honeymongodb://backup-reader:honey-secret@_honeymongodb-backup.open5gs.local:27017/open5gs_honey
+DATABASE_HOST=mongodb-backup.open5gs.local_honey
+OPEN5GS_0078507098_SMF_GTPU_PORT_2152_UDP_PORT=2152
+OPEN5GS_0078507098_AUSF_SBI_PORT_7777_TCP=tcp://10.43.77.253:7777
+OPEN5GS_0078507098_UPF_METRICS_SERVICE_PORT_METRICS=9090
+/opt/open5gs/staged/debian-logo.png
+/usr/share/pixmaps/debian-logo.png
+/opt/open5gs/etc/open5gs/service-account-previous.yml
+/opt/open5gs/etc/open5gs/scp-internal.yml
+/opt/open5gs/etc/open5gs/amf-2026.yml
+/opt/open5gs/etc/open5gs/sepp2-previous.yml
+/opt/open5gs/etc/open5gs/pcf-2025.yml
+/opt/open5gs/etc/open5gs/ausf.yaml
+/opt/open5gs/etc/open5gs/amf.yaml
+/opt/open5gs/etc/open5gs/bsf.yaml
+/opt/open5gs/etc/open5gs/smf.yaml
+/opt/open5gs/etc/open5gs/upf.yaml
+ping1 -c 3 mongodb.open5gs.svc.cluster.local
+open5gs-db-status
+curl1.0 http://mongodb-backup.open5gs.local:27017
+mongosh "mongodb://backup:123456@mongodb-backup.open5gs.local:27017/open5gs"
+export DB_PASSWORD=fhkjemuhhxgidfvehfgr2026
+/opt/open5gs/etc/open5gs/database-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/mme-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nssf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-2026.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sgwu-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-2025.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-archive.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-copy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sgwc-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-copy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-data-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/mme-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/mme-archive.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-prod.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sgwc-copy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-2025.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/ausf-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp1-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-prod.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nssf-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/database-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-local.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-local.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-data-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-local.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-copy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nssf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-old.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/smf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-prod.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-2025.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-archive.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/upf-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/ausf-2026.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-old.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-copy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-data-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/smf-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp1-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/network-config-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-data-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/nrf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-account-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-2026.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-db-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-previous.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/scp-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udm-internal.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-old.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-legacy.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sgwc-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-backup.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-old.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hss-previous.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/credentials-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-config-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-internal.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/sepp2-legacy.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/subscriber-cache-prod.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcrf-2026.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/service-credentials-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/bsf-backup.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/amf-archive.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/pcf-2025.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/auth-config-old.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-local.yml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/udr-config-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/mme-local.yaml:  password: fake-honey-secret
+/opt/open5gs/etc/open5gs/hnet/curve25519-5.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-2.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-4.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3-legacy.key
+/opt/open5gs/etc/open5gs/hnet/hnet-key-archive.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-previous.key
+/opt/open5gs/etc/open5gs/hnet/udr-key-prod.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6-local.key
+/opt/open5gs/etc/open5gs/hnet/service-internal.key
+/opt/open5gs/etc/open5gs/hnet/udr-key-old.key
+/opt/open5gs/etc/open5gs/hnet/service-previous.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-5-backup.key
+/opt/open5gs/etc/open5gs/hnet/service-key-prod.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-local.key
+/opt/open5gs/etc/open5gs/hnet/service-key-2025.key
+/opt/open5gs/etc/open5gs/hnet/network-key-old.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6-copy.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-5-copy.key
+/opt/open5gs/etc/open5gs/hnet/network-internal.key
+/opt/open5gs/etc/open5gs/hnet/hnet-key-local.key
+/opt/open5gs/etc/open5gs/hnet/udr-key-archive.key
+/opt/open5gs/etc/open5gs/hnet/udr-key-internal.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-5-previous.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-5-prod.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6-prod.key
+/opt/open5gs/etc/open5gs/hnet/service-backup.key
+/opt/open5gs/etc/open5gs/hnet/network-key-2025.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-prod.key
+/opt/open5gs/etc/open5gs/hnet/network-key-local.key
+/opt/open5gs/etc/open5gs/hnet/service-2026.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-key-previous.key
+/opt/open5gs/etc/open5gs/hnet/service-copy.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-key-old.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-2025.key
+/opt/open5gs/etc/open5gs/hnet/network-key-internal.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3-copy.key
+/opt/open5gs/etc/open5gs/hnet/hnet-key-2025.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-2-prod.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-2026.key
+/opt/open5gs/etc/open5gs/hnet/udr-backup.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-archive.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3-backup.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-key-prod.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-2-old.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-4-legacy.key
+/opt/open5gs/etc/open5gs/hnet/hnet-backup.key
+/opt/open5gs/etc/open5gs/hnet/hnet-key-prod.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-3-prod.key
+/opt/open5gs/etc/open5gs/hnet/network-legacy.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-4-local.key
+/opt/open5gs/etc/open5gs/hnet/subscriber-key-2026.key
+/opt/open5gs/etc/open5gs/hnet/service-old.key
+/opt/open5gs/etc/open5gs/hnet/secp256r1-6-previous.key
+/opt/open5gs/etc/open5gs/hnet/network-previous.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-local.key
+/opt/open5gs/etc/open5gs/hnet/curve25519-1-legacy.key
+/opt/open5gs/etc/open5gs/hnet/network-key-backup.key
+/opt/open5gs/etc/open5gs/tls/udr.key
+/opt/open5gs/etc/open5gs/tls/sepp2.key
+/opt/open5gs/etc/open5gs/tls/ausf.key
+/opt/open5gs/etc/open5gs/tls/bsf.key
+/opt/open5gs/etc/open5gs/tls/pcrf.key
+/opt/open5gs/etc/open5gs/tls/hss.key
+/opt/open5gs/etc/open5gs/tls/amf.key
+/opt/open5gs/etc/open5gs/tls/mme.key
+/opt/open5gs/etc/open5gs/tls/sepp1.key
+/opt/open5gs/etc/open5gs/tls/nssf.key
+/opt/open5gs/etc/open5gs/tls/sepp3.key
+/opt/open5gs/etc/open5gs/tls/pcf.key
+/opt/open5gs/etc/open5gs/tls/udm.key
+/opt/open5gs/etc/open5gs/tls/scp.key
+/opt/open5gs/etc/open5gs/tls/nrf.key
+/opt/open5gs/etc/open5gs/tls/smf.key
+/opt/open5gs/etc/open5gs/tls/pcrf-backup.key
+/opt/open5gs/etc/open5gs/tls/network-client-backup.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-archive.key
+/opt/open5gs/etc/open5gs/tls/network-client-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-client-previous.key
+/opt/open5gs/etc/open5gs/tls/service-client-internal.key
+/opt/open5gs/etc/open5gs/tls/bsf-local.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-2026.key
+/opt/open5gs/etc/open5gs/tls/bsf-archive.key
+/opt/open5gs/etc/open5gs/tls/udr-server-old.key
+/opt/open5gs/etc/open5gs/tls/nssf-internal.key
+/opt/open5gs/etc/open5gs/tls/udr-archive.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-legacy.key
+/opt/open5gs/etc/open5gs/tls/network-client-internal.key
+/opt/open5gs/etc/open5gs/tls/smf-2025.key
+/opt/open5gs/etc/open5gs/tls/pcf-previous.key
+/opt/open5gs/etc/open5gs/tls/service-client-backup.key
+/opt/open5gs/etc/open5gs/tls/hss-backup.key
+/opt/open5gs/etc/open5gs/tls/service-client-prod.key
+/opt/open5gs/etc/open5gs/tls/nrf-2026.key
+/opt/open5gs/etc/open5gs/tls/ca-2025.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-copy.key
+/opt/open5gs/etc/open5gs/tls/udr-old.key
+/opt/open5gs/etc/open5gs/tls/mme-internal.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-internal.key
+/opt/open5gs/etc/open5gs/tls/sepp3-old.key
+/opt/open5gs/etc/open5gs/tls/network-backup.key
+/opt/open5gs/etc/open5gs/tls/sepp1-old.key
+/opt/open5gs/etc/open5gs/tls/nrf-old.key
+/opt/open5gs/etc/open5gs/tls/amf-local.key
+/opt/open5gs/etc/open5gs/tls/sepp1-2026.key
+/opt/open5gs/etc/open5gs/tls/udr-client-archive.key
+/opt/open5gs/etc/open5gs/tls/udr-server-copy.key
+/opt/open5gs/etc/open5gs/tls/smf-old.key
+/opt/open5gs/etc/open5gs/tls/mme-2026.key
+/opt/open5gs/etc/open5gs/tls/ausf-2026.key
+/opt/open5gs/etc/open5gs/tls/udr-server-internal.key
+/opt/open5gs/etc/open5gs/tls/udr-client-legacy.key
+/opt/open5gs/etc/open5gs/tls/smf-copy.key
+/opt/open5gs/etc/open5gs/tls/udr-server-archive.key
+/opt/open5gs/etc/open5gs/tls/nrf-local.key
+/opt/open5gs/etc/open5gs/tls/sepp2-internal.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-prod.key
+/opt/open5gs/etc/open5gs/tls/service-account-2026.key
+/opt/open5gs/etc/open5gs/tls/service-client-local.key
+/opt/open5gs/etc/open5gs/tls/udr-server-legacy.key
+/opt/open5gs/etc/open5gs/tls/pcf-archive.key
+/opt/open5gs/etc/open5gs/tls/bsf-legacy.key
+/opt/open5gs/etc/open5gs/tls/network-client-old.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-legacy.key
+/opt/open5gs/etc/open5gs/tls/udr-server-previous.key
+/opt/open5gs/etc/open5gs/tls/network-client-local.key
+/opt/open5gs/etc/open5gs/tls/service-account-prod.key
+/opt/open5gs/etc/open5gs/tls/sepp1-archive.key
+/opt/open5gs/etc/open5gs/tls/nssf-old.key
+/opt/open5gs/etc/open5gs/tls/mme-legacy.key
+/opt/open5gs/etc/open5gs/tls/udr-server-local.key
+/opt/open5gs/etc/open5gs/tls/nrf-internal.key
+/opt/open5gs/etc/open5gs/tls/udm-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-client-backup.key
+/opt/open5gs/etc/open5gs/tls/smf-internal.key
+/opt/open5gs/etc/open5gs/tls/service-client-old.key
+/opt/open5gs/etc/open5gs/tls/amf-previous.key
+/opt/open5gs/etc/open5gs/tls/sepp2-old.key
+/opt/open5gs/etc/open5gs/tls/ausf-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-2026.key
+/opt/open5gs/etc/open5gs/tls/amf-backup.key
+/opt/open5gs/etc/open5gs/tls/amf-2025.key
+/opt/open5gs/etc/open5gs/tls/hss-copy.key
+/opt/open5gs/etc/open5gs/tls/service-account-2025.key
+/opt/open5gs/etc/open5gs/tls/service-account-copy.key
+/opt/open5gs/etc/open5gs/tls/scp-copy.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-backup.key
+/opt/open5gs/etc/open5gs/tls/udr-2025.key
+/opt/open5gs/etc/open5gs/tls/sepp2-previous.key
+/opt/open5gs/etc/open5gs/tls/pcf-copy.key
+/opt/open5gs/etc/open5gs/tls/sepp2-archive.key
+/opt/open5gs/etc/open5gs/tls/udr-server-2025.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-backup.key
+/opt/open5gs/etc/open5gs/tls/service-account-backup.key
+/opt/open5gs/etc/open5gs/tls/nssf-legacy.key
+/opt/open5gs/etc/open5gs/tls/bsf-old.key
+/opt/open5gs/etc/open5gs/tls/sepp3-archive.key
+/opt/open5gs/etc/open5gs/tls/nrf-backup.key
+/opt/open5gs/etc/open5gs/tls/nssf-local.key
+/opt/open5gs/etc/open5gs/tls/nrf-legacy.key
+/opt/open5gs/etc/open5gs/tls/service-account-archive.key
+/opt/open5gs/etc/open5gs/tls/udm-old.key
+/opt/open5gs/etc/open5gs/tls/service-account-previous.key
+/opt/open5gs/etc/open5gs/tls/hss-old.key
+/opt/open5gs/etc/open5gs/tls/nssf-2025.key
+/opt/open5gs/etc/open5gs/tls/internal-service.key
+/opt/open5gs/etc/open5gs/tls/service-account-internal.key
+/opt/open5gs/etc/open5gs/tls/pcrf-local.key
+/opt/open5gs/etc/open5gs/tls/ausf-copy.key
+/opt/open5gs/etc/open5gs/tls/service-client-previous.key
+/opt/open5gs/etc/open5gs/tls/sepp1-prod.key
+/opt/open5gs/etc/open5gs/tls/udr-client-copy.key
+/opt/open5gs/etc/open5gs/tls/pcf-old.key
+/opt/open5gs/etc/open5gs/tls/udm-copy.key
+/opt/open5gs/etc/open5gs/tls/scp-prod.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-local.key
+/opt/open5gs/etc/open5gs/tls/udr-client-prod.key
+/opt/open5gs/etc/open5gs/tls/bsf-previous.key
+/opt/open5gs/etc/open5gs/tls/service-client-2026.key
+/opt/open5gs/etc/open5gs/tls/nrf-2025.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-previous.key
+/opt/open5gs/etc/open5gs/tls/mme-2025.key
+/opt/open5gs/etc/open5gs/tls/bsf-copy.key
+/opt/open5gs/etc/open5gs/tls/udr-server-backup.key
+/opt/open5gs/etc/open5gs/tls/nrf-copy.key
+/opt/open5gs/etc/open5gs/tls/udr-client-internal.key
+/opt/open5gs/etc/open5gs/tls/ausf-local.key
+/opt/open5gs/etc/open5gs/tls/nrf-prod.key
+/opt/open5gs/etc/open5gs/tls/network-client-previous.key
+/opt/open5gs/etc/open5gs/tls/nssf-backup.key
+/opt/open5gs/etc/open5gs/tls/pcrf-previous.key
+/opt/open5gs/etc/open5gs/tls/ausf-prod.key
+/opt/open5gs/etc/open5gs/tls/service-client-legacy.key
+/opt/open5gs/etc/open5gs/tls/pcrf-2026.key
+/opt/open5gs/etc/open5gs/tls/hss-local.key
+/opt/open5gs/etc/open5gs/tls/service-account-old.key
+/opt/open5gs/etc/open5gs/tls/subscriber-client-internal.key
+/opt/open5gs/etc/open5gs/tls/pcf-legacy.key
+/opt/open5gs/etc/open5gs/tls/udm-archive.key
+/opt/open5gs/etc/open5gs/tls/network-client-2026.key
+/opt/open5gs/etc/open5gs/tls/mme-prod.key
+/opt/open5gs/etc/open5gs/tls/hss-internal.key
+/opt/open5gs/etc/open5gs/tls/mme-archive.key
+/opt/open5gs/etc/open5gs/tls/mme-backup.key
+/opt/open5gs/etc/open5gs/tls/smf-2026.key
+/opt/open5gs/etc/open5gs/tls/udr-client-old.key
+/opt/open5gs/etc/open5gs/tls/amf-2026.key
+/opt/open5gs/etc/open5gs/tls/nssf-archive.key
+/opt/open5gs/etc/open5gs/tls/sepp3-internal.key
+/opt/open5gs/etc/open5gs/tls/pcrf-old.key
+/opt/open5gs/etc/open5gs/tls/mme-old.key
+/opt/open5gs/etc/open5gs/tls/subscriber-db-2026.key
+/opt/open5gs/etc/open5gs/tls/udm-prod.key
+/opt/open5gs/etc/open5gs/tls/scp-backup.key
+/opt/open5gs/etc/open5gs/tls/service-client-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-client-2026.key
+/opt/open5gs/etc/open5gs/tls/sepp2-prod.key
+/opt/open5gs/etc/open5gs/tls/ca-2026.key
+/opt/open5gs/etc/open5gs/tls/udm-local.key
+/opt/open5gs/etc/open5gs/tls/sepp3-legacy.key
+/opt/open5gs/etc/open5gs/tls/pcrf-copy.key
+/opt/open5gs/etc/open5gs/tls/nssf-copy.key
+/opt/open5gs/etc/open5gs/tls/pcf-internal.key
+/opt/open5gs/etc/open5gs/tls/sepp2-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-client-2025.key
+/opt/open5gs/etc/open5gs/tls/udr-server-2026.key
+/opt/open5gs/etc/open5gs/tls/smf-local.key
+/opt/open5gs/etc/open5gs/tls/amf-archive.key
+/opt/open5gs/etc/freeDiameter/smf.key.pem
+/opt/open5gs/etc/freeDiameter/mme.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr.pem
+/opt/open5gs/etc/freeDiameter/mme.cert.pem
+/opt/open5gs/etc/freeDiameter/smf.cert.pem
+/opt/open5gs/etc/freeDiameter/smf-csr.pem
+/opt/open5gs/etc/freeDiameter/pcrf.key.pem
+/opt/open5gs/etc/freeDiameter/ca.key.pem
+/opt/open5gs/etc/freeDiameter/hss.cert.pem
+/opt/open5gs/etc/freeDiameter/hss-csr.pem
+/opt/open5gs/etc/freeDiameter/mme-csr.pem
+/opt/open5gs/etc/freeDiameter/hss.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf.cert.pem
+/opt/open5gs/etc/freeDiameter/cacert.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-backup.key.pem
+/opt/open5gs/etc/freeDiameter/cacert-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/cacert-backup.pem
+/opt/open5gs/etc/freeDiameter/service-account-previous.pem
+/opt/open5gs/etc/freeDiameter/smf-2025.cert.pem
+/opt/open5gs/etc/freeDiameter/service-old.key.pem
+/opt/open5gs/etc/freeDiameter/service-account-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/hss-copy.key.pem
+/opt/open5gs/etc/freeDiameter/diameter-backup.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-copy.key.pem
+/opt/open5gs/etc/freeDiameter/smf-local.key.pem
+/opt/open5gs/etc/freeDiameter/cacert-prod.key.pem
+/opt/open5gs/etc/freeDiameter/mme-csr-legacy.pem
+/opt/open5gs/etc/freeDiameter/udr-prod.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/hss-archive.pem
+/opt/open5gs/etc/freeDiameter/udr-backup.cert.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/create_tls_certs-backup.key.pem
+/opt/open5gs/etc/freeDiameter/mme-internal.key.pem
+/opt/open5gs/etc/freeDiameter/udr-local.pem
+/opt/open5gs/etc/freeDiameter/service-account-legacy.pem
+/opt/open5gs/etc/freeDiameter/smf-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/smf-archive.pem
+/opt/open5gs/etc/freeDiameter/create_tls_certs-prod.pem
+/opt/open5gs/etc/freeDiameter/service-prod.cert.pem
+/opt/open5gs/etc/freeDiameter/service-2025.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-local.key.pem
+/opt/open5gs/etc/freeDiameter/service-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-local.cert.pem
+/opt/open5gs/etc/freeDiameter/cacert-2026.cert.pem
+/opt/open5gs/etc/freeDiameter/service-backup.key.pem
+/opt/open5gs/etc/freeDiameter/mme-csr-local.pem
+/opt/open5gs/etc/freeDiameter/hss-2025.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-prod.key.pem
+/opt/open5gs/etc/freeDiameter/mme-csr-old.pem
+/opt/open5gs/etc/freeDiameter/network-local.pem
+/opt/open5gs/etc/freeDiameter/pcrf-2026.key.pem
+/opt/open5gs/etc/freeDiameter/hss-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/network-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/network-legacy.pem
+/opt/open5gs/etc/freeDiameter/create_tls_certs-archive.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-local.pem
+/opt/open5gs/etc/freeDiameter/diameter-backup.key.pem
+/opt/open5gs/etc/freeDiameter/service-account-old.key.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/smf-2025.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-old.pem
+/opt/open5gs/etc/freeDiameter/service-account-2025.key.pem
+/opt/open5gs/etc/freeDiameter/service-account-backup.cert.pem
+/opt/open5gs/etc/freeDiameter/mme-backup.pem
+/opt/open5gs/etc/freeDiameter/service-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-backup.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-local.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-prod.pem
+/opt/open5gs/etc/freeDiameter/hss-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/network-old.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-archive.pem
+/opt/open5gs/etc/freeDiameter/hss-old.pem
+/opt/open5gs/etc/freeDiameter/cacert-copy.key.pem
+/opt/open5gs/etc/freeDiameter/network-peer-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/service-local.key.pem
+/opt/open5gs/etc/freeDiameter/network-local.key.pem
+/opt/open5gs/etc/freeDiameter/cacert-prod.pem
+/opt/open5gs/etc/freeDiameter/service-account-copy.pem
+/opt/open5gs/etc/freeDiameter/service-account-copy.key.pem
+/opt/open5gs/etc/freeDiameter/mme-2026.cert.pem
+/opt/open5gs/etc/freeDiameter/service-account-old.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-old.pem
+/opt/open5gs/etc/freeDiameter/network-internal.key.pem
+/opt/open5gs/etc/freeDiameter/mme-previous.pem
+/opt/open5gs/etc/freeDiameter/diameter-backup.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-archive.key.pem
+/opt/open5gs/etc/freeDiameter/udr-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-backup.cert.pem
+/opt/open5gs/etc/freeDiameter/service-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/udr-archive.key.pem
+/opt/open5gs/etc/freeDiameter/network-peer-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/hss-csr-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/network-previous.pem
+/opt/open5gs/etc/freeDiameter/service-account-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/pcrf-csr-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-internal.key.pem
+/opt/open5gs/etc/freeDiameter/mme-2025.cert.pem
+/opt/open5gs/etc/freeDiameter/hss-prod.key.pem
+/opt/open5gs/etc/freeDiameter/pcrf-legacy.key.pem
+/opt/open5gs/etc/freeDiameter/hss-old.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-local.cert.pem
+/opt/open5gs/etc/freeDiameter/subscriber-auth-2025.pem
+/opt/open5gs/etc/freeDiameter/smf-old.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-old.key.pem
+/opt/open5gs/etc/freeDiameter/network-archive.pem
+/opt/open5gs/etc/freeDiameter/service-local.pem
+/opt/open5gs/etc/freeDiameter/pcrf-backup.key.pem
+/opt/open5gs/etc/freeDiameter/udr-copy.key.pem
+/opt/open5gs/etc/freeDiameter/smf-csr-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/subscriber-prod.key.pem
+/opt/open5gs/etc/freeDiameter/hss-internal.key.pem
+/opt/open5gs/etc/freeDiameter/subscriber-backup.pem
+/opt/open5gs/etc/freeDiameter/diameter-peer-previous.pem
+/opt/open5gs/etc/freeDiameter/udr-backup.key.pem
+/opt/open5gs/etc/freeDiameter/smf-copy.cert.pem
+/opt/open5gs/etc/freeDiameter/network-copy.pem
+/opt/open5gs/etc/freeDiameter/mme-internal.pem
+/opt/open5gs/etc/freeDiameter/network-previous.cert.pem
+/opt/open5gs/etc/freeDiameter/network-local.cert.pem
+/opt/open5gs/etc/freeDiameter/service-account-prod.key.pem
+/opt/open5gs/etc/freeDiameter/ca-copy.pem
+/opt/open5gs/etc/freeDiameter/subscriber-internal.cert.pem
+/opt/open5gs/etc/freeDiameter/smf-csr-archive.cert.pem
+/opt/open5gs/etc/freeDiameter/cacert-local.cert.pem
+/opt/open5gs/etc/freeDiameter/smf-legacy.cert.pem
+/opt/open5gs/etc/freeDiameter/service-account-archive.cert.pem
+/opt/open5gs/etc/freeDiameter/network-peer-backup.key.pem
+/opt/open5gs/etc/freeDiameter/mme-old.key.pem
+/opt/open5gs/etc/freeDiameter/mme-archive.cert.pem
+/opt/open5gs/etc/open5gs/tls/sepp2.crt
+/opt/open5gs/etc/open5gs/tls/nrf.crt
+/opt/open5gs/etc/open5gs/tls/udm.crt
+/opt/open5gs/etc/open5gs/tls/pcrf.crt
+/opt/open5gs/etc/open5gs/tls/sepp3.crt
+/opt/open5gs/etc/open5gs/tls/ca.crt
+/opt/open5gs/etc/open5gs/tls/scp.crt
+/opt/open5gs/etc/open5gs/tls/mme.crt
+/opt/open5gs/etc/open5gs/tls/ausf.crt
+/opt/open5gs/etc/open5gs/tls/udr.crt
+/opt/open5gs/etc/open5gs/tls/pcf.crt
+/opt/open5gs/etc/open5gs/tls/hss.crt
+/opt/open5gs/etc/open5gs/tls/bsf.crt
+/opt/open5gs/etc/open5gs/tls/sepp1.crt
+/opt/open5gs/etc/open5gs/tls/smf.crt
+/opt/open5gs/etc/open5gs/tls/amf.crt
+/opt/open5gs/etc/open5gs/tls/nssf.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-local.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-local.crt
+/opt/open5gs/etc/open5gs/tls/bsf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-local.crt
+/opt/open5gs/etc/open5gs/tls/udm-previous.crt
+/opt/open5gs/etc/open5gs/tls/ca-2026.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-prod.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-copy.crt
+/opt/open5gs/etc/open5gs/tls/amf-copy.crt
+/opt/open5gs/etc/open5gs/tls/amf-archive.crt
+/opt/open5gs/etc/open5gs/tls/network-client-copy.crt
+/opt/open5gs/etc/open5gs/tls/mme-local.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-2026.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-prod.crt
+/opt/open5gs/etc/open5gs/tls/sepp2-local.crt
+/opt/open5gs/etc/open5gs/tls/mme-legacy.crt
+/opt/open5gs/etc/open5gs/tls/udm-copy.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-backup.crt
+/opt/open5gs/etc/open5gs/tls/scp-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-prod.crt
+/opt/open5gs/etc/open5gs/tls/service-client-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp2-backup.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-backup.crt
+/opt/open5gs/etc/open5gs/tls/mme-old.crt
+/opt/open5gs/etc/open5gs/tls/ausf-2026.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-internal.crt
+/opt/open5gs/etc/open5gs/tls/smf-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-previous.crt
+/opt/open5gs/etc/open5gs/tls/ausf-previous.crt
+/opt/open5gs/etc/open5gs/tls/pcf-2026.crt
+/opt/open5gs/etc/open5gs/tls/service-account-previous.crt
+/opt/open5gs/etc/open5gs/tls/mme-previous.crt
+/opt/open5gs/etc/open5gs/tls/sepp3-internal.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-internal.crt
+/opt/open5gs/etc/open5gs/tls/service-account-2026.crt
+/opt/open5gs/etc/open5gs/tls/network-client-2025.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-internal.crt
+/opt/open5gs/etc/open5gs/tls/service-account-copy.crt
+/opt/open5gs/etc/open5gs/tls/service-account-legacy.crt
+/opt/open5gs/etc/open5gs/tls/udr-2026.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-archive.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-2026.crt
+/opt/open5gs/etc/open5gs/tls/nssf-prod.crt
+/opt/open5gs/etc/open5gs/tls/amf-backup.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-archive.crt
+/opt/open5gs/etc/open5gs/tls/sepp3-old.crt
+/opt/open5gs/etc/open5gs/tls/nrf-2025.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-copy.crt
+/opt/open5gs/etc/open5gs/tls/ausf-local.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp3-2025.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-archive.crt
+/opt/open5gs/etc/open5gs/tls/sepp3-legacy.crt
+/opt/open5gs/etc/open5gs/tls/network-client-archive.crt
+/opt/open5gs/etc/open5gs/tls/udr-legacy.crt
+/opt/open5gs/etc/open5gs/tls/amf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-legacy.crt
+/opt/open5gs/etc/open5gs/tls/scp-prod.crt
+/opt/open5gs/etc/open5gs/tls/mme-2026.crt
+/opt/open5gs/etc/open5gs/tls/mme-backup.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-legacy.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-prod.crt
+/opt/open5gs/etc/open5gs/tls/sepp1-previous.crt
+/opt/open5gs/etc/open5gs/tls/service-client-copy.crt
+/opt/open5gs/etc/open5gs/tls/udm-2026.crt
+/opt/open5gs/etc/open5gs/tls/ca-legacy.crt
+/opt/open5gs/etc/open5gs/tls/nrf-2026.crt
+/opt/open5gs/etc/open5gs/tls/udm-archive.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-archive.crt
+/opt/open5gs/etc/open5gs/tls/nssf-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-copy.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/hss-2025.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-2025.crt
+/opt/open5gs/etc/open5gs/tls/ausf-old.crt
+/opt/open5gs/etc/open5gs/tls/ausf-backup.crt
+/opt/open5gs/etc/open5gs/tls/ca-2025.crt
+/opt/open5gs/etc/open5gs/tls/hss-backup.crt
+/opt/open5gs/etc/open5gs/tls/nssf-copy.crt
+/opt/open5gs/etc/open5gs/tls/nrf-old.crt
+/opt/open5gs/etc/open5gs/tls/mme-copy.crt
+/opt/open5gs/etc/open5gs/tls/hss-legacy.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-2026.crt
+/opt/open5gs/etc/open5gs/tls/sepp2-archive.crt
+/opt/open5gs/etc/open5gs/tls/network-client-2026.crt
+/opt/open5gs/etc/open5gs/tls/service-client-archive.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-old.crt
+/opt/open5gs/etc/open5gs/tls/network-backup.crt
+/opt/open5gs/etc/open5gs/tls/service-client-2026.crt
+/opt/open5gs/etc/open5gs/tls/nssf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/bsf-archive.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-copy.crt
+/opt/open5gs/etc/open5gs/tls/hss-old.crt
+/opt/open5gs/etc/open5gs/tls/smf-2026.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-2025.crt
+/opt/open5gs/etc/open5gs/tls/udr-prod.crt
+/opt/open5gs/etc/open5gs/tls/pcf-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-archive.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-prod.crt
+/opt/open5gs/etc/open5gs/tls/service-client-internal.crt
+/opt/open5gs/etc/open5gs/tls/nssf-2025.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-backup.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-archive.crt
+/opt/open5gs/etc/open5gs/tls/udm-2025.crt
+/opt/open5gs/etc/open5gs/tls/nrf-prod.crt
+/opt/open5gs/etc/open5gs/tls/bsf-backup.crt
+/opt/open5gs/etc/open5gs/tls/service-account-internal.crt
+/opt/open5gs/etc/open5gs/tls/sepp2-legacy.crt
+/opt/open5gs/etc/open5gs/tls/network-client-backup.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-backup.crt
+/opt/open5gs/etc/open5gs/tls/bsf-2025.crt
+/opt/open5gs/etc/open5gs/tls/nrf-local.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-internal.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-local.crt
+/opt/open5gs/etc/open5gs/tls/service-client-2025.crt
+/opt/open5gs/etc/open5gs/tls/internal-service.crt
+/opt/open5gs/etc/open5gs/tls/smf-internal.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-client-old.crt
+/opt/open5gs/etc/open5gs/tls/scp-copy.crt
+/opt/open5gs/etc/open5gs/tls/service-account-backup.crt
+/opt/open5gs/etc/open5gs/tls/network-client-internal.crt
+/opt/open5gs/etc/open5gs/tls/bsf-internal.crt
+/opt/open5gs/etc/open5gs/tls/subscriber-db-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-backup.crt
+/opt/open5gs/etc/open5gs/tls/scp-previous.crt
+/opt/open5gs/etc/open5gs/tls/nssf-old.crt
+/opt/open5gs/etc/open5gs/tls/pcf-legacy.crt
+/opt/open5gs/etc/open5gs/tls/service-account-archive.crt
+/opt/open5gs/etc/open5gs/tls/service-client-previous.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-old.crt
+/opt/open5gs/etc/open5gs/tls/service-account-prod.crt
+/opt/open5gs/etc/open5gs/tls/udr-client-legacy.crt
+/opt/open5gs/etc/open5gs/tls/smf-old.crt
+/opt/open5gs/etc/open5gs/tls/service-account-local.crt
+/opt/open5gs/etc/open5gs/tls/amf-local.crt
+/opt/open5gs/etc/open5gs/tls/hss-copy.crt
+/opt/open5gs/etc/open5gs/tls/nrf-archive.crt
+/opt/open5gs/etc/open5gs/tls/ca-copy.crt
+/opt/open5gs/etc/open5gs/tls/hss-2026.crt
+/opt/open5gs/etc/open5gs/tls/service-client-local.crt
+/opt/open5gs/etc/open5gs/tls/pcrf-archive.crt
+/opt/open5gs/etc/open5gs/tls/udr-server-legacy.crt

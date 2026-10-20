@@ -1,0 +1,7 @@
+Prometheus URL: http://127.0.0.1:9091
+Query step: 5s
+Start epoch: 1791113763
+End epoch: 1791113883
+Start local time: 2026-10-04T13:36:03+02:00
+End local time: 2026-10-04T13:38:03+02:00
+Duration seconds: 120

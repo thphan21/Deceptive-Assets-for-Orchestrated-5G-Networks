@@ -1,0 +1,21 @@
+asset_type,path,name,role,value_or_target,size_bytes,details,pod,namespace,deployment_time
+env,ENV:DATABASE_URI,DATABASE_URI,database_uri,mongodb://open5gs-postgres/subscriber-honeymongodb://backup-reader:honey-secret@_honeymongodb-backup.open5gs.local:27017/open5gs_honey,134,selected unused environment variable,open5gs-0078507098-udr-85f67d65d8-jwt89,open5gs,2026-10-02T03:15:05.994214+00:00
+env,ENV:DATABASE_HOST,DATABASE_HOST,database_host,mongodb-backup.open5gs.local_honey,34,selected unused environment variable,open5gs-0078507098-udr-85f67d65d8-jwt89,open5gs,2026-10-02T03:15:05.994214+00:00
+env,ENV:BACKUP_DATABASE,BACKUP_DATABASE,backup_database,/opt/open5gs/backups/subscriber-db-previous.dump_honey,54,selected unused environment variable,open5gs-0078507098-udr-85f67d65d8-jwt89,open5gs,2026-10-02T03:15:05.994214+00:00
+env,ENV:SSH_KEY_PATH,SSH_KEY_PATH,ssh_key_path,/opt/open5gs/etc/open5gs/hnet/subscriber-backup_honey.key,57,selected unused environment variable,open5gs-0078507098-udr-85f67d65d8-jwt89,open5gs,2026-10-02T03:15:05.994214+00:00
+env,ENV:API_TOKEN,API_TOKEN,api_token,honey-open5gs-api-token-7f3a91c2_honey,38,selected unused environment variable,open5gs-0078507098-udr-85f67d65d8-jwt89,open5gs,2026-10-02T03:15:05.994214+00:00
+binary,/opt/open5gs/bin/ping1,ping1,ping1,,25,generated honey executable,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/opt/open5gs/bin/ping2,ping2,ping2,,25,generated honey executable,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/opt/open5gs/bin/ping3,ping3,ping3,,25,generated honey executable,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/opt/open5gs/bin/curl1.0,curl1.0,curl1,,25,generated honey executable,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/opt/open5gs/bin/curl2.0,curl2.0,curl2,,25,generated honey executable,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/opt/open5gs/bin/curl3.0,curl3.0,curl3,,25,generated honey executable,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/opt/open5gs/bin/db-status,db-status,db_check,,114,generated honey executable,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/opt/open5gs/bin/open5gs-db-backup,open5gs-db-backup,migration,,221,generated honey executable,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+history,HISTORY:1,pinned_history_1,binary_discovery,ping1 -c 3 mongodb.open5gs.svc.cluster.local,,pinned command at beginning of Bash history,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+history,HISTORY:2,pinned_history_2,binary_discovery,db-check,,pinned command at beginning of Bash history,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+history,HISTORY:3,pinned_history_3,binary_discovery,curl1.0 http://mongodb-backup.open5gs.local_honey:27017,,pinned command at beginning of Bash history,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+history,HISTORY:4,pinned_history_4,binary_discovery,"mongosh ""mongodb://backup:123456@mongodb-backup.open5gs.local_honey:27017/open5gs""",,pinned command at beginning of Bash history,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+history,HISTORY:5,pinned_history_5,binary_discovery,export DB_PASSWORD=fhkjemuhhxgidfvehfgr2026,,pinned command at beginning of Bash history,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/bin/ping,ping,behavioral_trap_ping,,,behavioral honey binary,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00
+binary,/usr/bin/curl,curl,behavioral_trap_curl,,,behavioral honey binary,open5gs-0078507098-udr-659b79788f-t5dnb,open5gs,2026-10-02T15:18:48.494464+00:00

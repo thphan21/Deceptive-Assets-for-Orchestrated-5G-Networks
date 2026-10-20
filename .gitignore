@@ -1,0 +1,7 @@
+# Large raw D-ITG experiment logs
+experiments/**/d-itg/raw/
+
+# Python temporary files
+__pycache__/
+*.pyc
+.venv/

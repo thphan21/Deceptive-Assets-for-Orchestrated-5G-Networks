@@ -1,0 +1,24 @@
+[ 
+  {
+    "alertname": "Detected_at_least_1_Honey_BINARY_Interactions",
+    "state": "active",
+    "startsAt": "2026-10-02T20:19:09.465Z",
+    "endsAt": "2026-10-02T20:27:37.673Z",
+    "summary": "Honey asset execution detected"
+  },
+  {
+    "alertname": "Detected_at_least_1_Honey_BINARY_Execution",
+    "state": "active",
+    "startsAt": "2026-10-02T20:19:09.465Z",
+    "endsAt": "2026-10-02T1720:27:37.673Z",
+    "summary": "Honey asset execution detected"
+  },
+  {
+    "alertname": "Detected_at_least_5_Suspicious_BINARY_Executions",
+    "state": "active",
+    "startsAt": "026-10-02T20:12:23.322Z",
+    "endsAt": "2026-10-02T20:27:37.673Z",
+    "summary": "Honey asset execution detected"
+  }
+  
+]

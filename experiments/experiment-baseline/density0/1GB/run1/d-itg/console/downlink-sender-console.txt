@@ -1,0 +1,122 @@
+ITGSend version 2.8.1 (r1023)
+Compile-time options: sctp dccp bursty multiport
+Started sending packets of flow ID: 2
+Started sending packets of flow ID: 1
+Started sending packets of flow ID: 39
+Started sending packets of flow ID: 5
+Started sending packets of flow ID: 7
+Started sending packets of flow ID: 9
+Started sending packets of flow ID: 11
+Started sending packets of flow ID: 10
+Started sending packets of flow ID: 4
+Started sending packets of flow ID: 15
+Started sending packets of flow ID: 13
+Started sending packets of flow ID: 18
+Started sending packets of flow ID: 17
+Started sending packets of flow ID: 6
+Started sending packets of flow ID: 21
+Started sending packets of flow ID: 14
+Started sending packets of flow ID: 8
+Started sending packets of flow ID: 20
+Started sending packets of flow ID: 22
+Started sending packets of flow ID: 12
+Started sending packets of flow ID: 16
+Started sending packets of flow ID: 19
+Started sending packets of flow ID: 25
+Started sending packets of flow ID: 23
+Started sending packets of flow ID: 26
+Started sending packets of flow ID: 24
+Started sending packets of flow ID: 29
+Started sending packets of flow ID: 37
+Started sending packets of flow ID: 27
+Started sending packets of flow ID: 28
+Started sending packets of flow ID: 38
+Started sending packets of flow ID: 3
+Started sending packets of flow ID: 30
+Started sending packets of flow ID: 36
+Started sending packets of flow ID: 35
+Started sending packets of flow ID: 33
+Started sending packets of flow ID: 34
+Started sending packets of flow ID: 31
+Started sending packets of flow ID: 40
+Started sending packets of flow ID: 32
+Finished sending packets of flow ID: 2
+
+Finished sending packets of flow ID: 9
+
+Finished sending packets of flow ID: 39
+
+Finished sending packets of flow ID: 5
+
+Finished sending packets of flow ID: 25
+
+Finished sending packets of flow ID: 29
+
+Finished sending packets of flow ID: 13
+
+Finished sending packets of flow ID: 17
+
+Finished sending packets of flow ID: 21
+
+Finished sending packets of flow ID: 33
+
+Finished sending packets of flow ID: 1
+
+Finished sending packets of flow ID: 11
+
+Finished sending packets of flow ID: 37
+
+Finished sending packets of flow ID: 7
+
+Finished sending packets of flow ID: 26
+
+Finished sending packets of flow ID: 30
+
+Finished sending packets of flow ID: 15
+
+Finished sending packets of flow ID: 18
+
+Finished sending packets of flow ID: 22
+
+Finished sending packets of flow ID: 34
+
+Finished sending packets of flow ID: 4
+
+Finished sending packets of flow ID: 38
+
+Finished sending packets of flow ID: 10
+
+Finished sending packets of flow ID: 6
+
+Finished sending packets of flow ID: 27
+
+Finished sending packets of flow ID: 31
+
+Finished sending packets of flow ID: 14
+
+Finished sending packets of flow ID: 19
+
+Finished sending packets of flow ID: 23
+
+Finished sending packets of flow ID: 35
+
+Finished sending packets of flow ID: 3
+
+Finished sending packets of flow ID: 40
+
+Finished sending packets of flow ID: 12
+
+Finished sending packets of flow ID: 8
+
+Finished sending packets of flow ID: 28
+
+Finished sending packets of flow ID: 32
+
+Finished sending packets of flow ID: 16
+
+Finished sending packets of flow ID: 20
+
+Finished sending packets of flow ID: 24
+
+Finished sending packets of flow ID: 36
+

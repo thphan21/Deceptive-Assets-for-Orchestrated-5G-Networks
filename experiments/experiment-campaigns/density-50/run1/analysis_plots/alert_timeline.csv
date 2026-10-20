@@ -1,0 +1,8 @@
+event,absolute_timestamp,relative_timestamp,time_to_alert_seconds,state,summary
+campaign_start,2026-10-02T17:22:38Z,00:00:00,,,
+Detected_at_least_1_Honey_BINARY_Interactions,2026-10-02T17:30:16.364000Z,00:07:38,458.364,active,Honey asset execution detected
+Detected_at_least_1_Honey_BINARY_Execution,2026-10-02T17:30:16.364000Z,00:07:38,458.364,active,Honey asset execution detected
+Detected_at_least_3_Honey_FILE_Interactions,2026-10-02T17:35:46.647000Z,00:13:09,788.647,active,Honey asset execution detected
+campaign_end,2026-10-02T17:48:08Z,00:25:30,,,
+Detected_at_least_3_Honey_ENV_Interactions,,,,,
+Detected_at_least_7_Suspicious_BINARY_Executions,,,,,

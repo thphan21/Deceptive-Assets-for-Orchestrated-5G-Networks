@@ -1,0 +1,3 @@
+asset_type,path,name,role,value_or_target,size_bytes,details,pod,namespace,deployment_time
+binary,/bin/ping,ping,behavioral_trap_ping,,,behavioral honey binary,open5gs-0078507098-udr-85f67d65d8-4d7h9,open5gs,2026-10-02T19:50:14.715725+00:00
+binary,/usr/bin/curl,curl,behavioral_trap_curl,,,behavioral honey binary,open5gs-0078507098-udr-85f67d65d8-4d7h9,open5gs,2026-10-02T19:50:14.715725+00:00

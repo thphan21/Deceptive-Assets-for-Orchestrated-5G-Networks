@@ -1,0 +1,8 @@
+asset_type,name,path,role,discovered,interacted,engaged,executed
+env,DATABASE_URI,ENV:DATABASE_URI,database_uri,0,0,0,
+env,DATABASE_HOST,ENV:DATABASE_HOST,database_host,0,0,0,
+env,BACKUP_DATABASE,ENV:BACKUP_DATABASE,backup_database,0,0,0,
+env,SSH_KEY_PATH,ENV:SSH_KEY_PATH,ssh_key_path,0,0,0,
+env,API_TOKEN,ENV:API_TOKEN,api_token,0,0,0,
+binary,ping,/bin/ping,behavioral_trap_ping,0,1,0,1
+binary,curl,/usr/bin/curl,behavioral_trap_curl,0,1,0,1

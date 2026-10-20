@@ -1,0 +1,40 @@
+{
+  "env": {
+    "deployed": 5,
+    "discovered": 5,
+    "interacted": 0,
+    "engaged": 0,
+    "discovery_rate": 1.0,
+    "interaction_rate": 0.0,
+    "engagement_rate": 0.0
+  },
+  "binary": {
+    "deployed": 10,
+    "discovered": 10,
+    "interacted": 5,
+    "engaged": 5,
+    "discovery_rate": 1.0,
+    "interaction_rate": 0.5,
+    "engagement_rate": 0.5,
+    "executed": 5,
+    "execution_rate": 0.5
+  },
+  "process": {
+    "deployed": 1,
+    "discovered": 1,
+    "interacted": 1,
+    "engaged": 1,
+    "discovery_rate": 1.0,
+    "interaction_rate": 1.0,
+    "engagement_rate": 1.0
+  },
+  "honeyfile": {
+    "deployed": 232,
+    "discovered": 210,
+    "interacted": 55,
+    "engaged": 54,
+    "discovery_rate": 0.9051724137931034,
+    "interaction_rate": 0.23706896551724138,
+    "engagement_rate": 0.2571428571428571
+  }
+}

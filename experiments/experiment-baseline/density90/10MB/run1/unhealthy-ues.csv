@@ -1,0 +1,3 @@
+interface,ue_ip,reason
+uesimtun0,10.45.2.129,uplink-failed
+uesimtun6,10.45.2.135,uplink-failed

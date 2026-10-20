@@ -1,0 +1,92 @@
+Experiment root: /home/phan/experiments/baseline-mixed-workloads_10-ues
+Plot duration: 120.0 s
+
+CREATED
+=======
+0/amf_cpu.png
+0/amf_memory.png
+0/smf_cpu.png
+0/smf_memory.png
+0/upf_cpu.png
+0/upf_memory.png
+0/udr_cpu.png
+0/udr_memory.png
+0/upf_throughput_rx_tx.png
+10MB/uplink_delay_mean_min_max.png
+10MB/uplink_jitter.png
+10MB/uplink_bitrate.png
+10MB/downlink_delay_mean_min_max.png
+10MB/downlink_jitter.png
+10MB/downlink_bitrate.png
+10MB/amf_cpu.png
+10MB/amf_memory.png
+10MB/smf_cpu.png
+10MB/smf_memory.png
+10MB/upf_cpu.png
+10MB/upf_memory.png
+10MB/udr_cpu.png
+10MB/udr_memory.png
+10MB/upf_throughput_rx_tx.png
+100MB/uplink_delay_mean_min_max.png
+100MB/uplink_jitter.png
+100MB/uplink_bitrate.png
+100MB/downlink_delay_mean_min_max.png
+100MB/downlink_jitter.png
+100MB/downlink_bitrate.png
+100MB/amf_cpu.png
+100MB/amf_memory.png
+100MB/smf_cpu.png
+100MB/smf_memory.png
+100MB/upf_cpu.png
+100MB/upf_memory.png
+100MB/udr_cpu.png
+100MB/udr_memory.png
+100MB/upf_throughput_rx_tx.png
+1GB/uplink_delay_mean_min_max.png
+1GB/uplink_jitter.png
+1GB/uplink_bitrate.png
+1GB/downlink_delay_mean_min_max.png
+1GB/downlink_jitter.png
+1GB/downlink_bitrate.png
+1GB/amf_cpu.png
+1GB/amf_memory.png
+1GB/smf_cpu.png
+1GB/smf_memory.png
+1GB/upf_cpu.png
+1GB/upf_memory.png
+1GB/udr_cpu.png
+1GB/udr_memory.png
+1GB/upf_throughput_rx_tx.png
+10GB/uplink_delay_mean_min_max.png
+10GB/uplink_jitter.png
+10GB/uplink_bitrate.png
+10GB/downlink_delay_mean_min_max.png
+10GB/downlink_jitter.png
+10GB/downlink_bitrate.png
+10GB/amf_cpu.png
+10GB/amf_memory.png
+10GB/smf_cpu.png
+10GB/smf_memory.png
+10GB/upf_cpu.png
+10GB/upf_memory.png
+10GB/udr_cpu.png
+10GB/udr_memory.png
+10GB/upf_throughput_rx_tx.png
+
+SKIPPED / NOT AVAILABLE
+=======================
+0 uplink delay
+0 uplink jitter
+0 uplink D-ITG bitrate
+0 downlink delay
+0 downlink jitter
+0 downlink D-ITG bitrate
+
+REQUESTED METRICS NOT PRESENT IN SAMPLE
+=======================================
+AMF requests/s: No AMF request-counter/rate CSV exists in prometheus/csv.
+SMF requests/s: No SMF request-counter/rate CSV exists in prometheus/csv.
+UPF requests/s: No UPF request-counter/rate CSV exists in prometheus/csv.
+AMF throughput: No AMF network-throughput CSV exists in prometheus/csv.
+SMF throughput: No SMF network-throughput CSV exists in prometheus/csv.
+UPF packets: No UPF packet counter/rate CSV exists in prometheus/csv.

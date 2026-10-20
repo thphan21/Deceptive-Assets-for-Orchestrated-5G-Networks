@@ -1,0 +1,196 @@
+
+udr_cpu_cores:
+
+sum(max by (namespace,pod,container) (
+  rate(
+    container_cpu_usage_seconds_total{
+      namespace="open5gs",
+      container=~".*udr.*",
+      cpu="total"
+    }[30s]
+  )
+))
+
+udr_memory_mib:
+
+sum(max by (namespace,pod,container) (
+  container_memory_working_set_bytes{
+    namespace="open5gs",
+    container=~".*udr.*"
+  }
+)) / 1024 / 1024
+
+udr_restart_count:
+
+max(
+  kube_pod_container_status_restarts_total{
+    namespace="open5gs",
+    pod=~".*udr.*"
+  }
+)
+
+amf_cpu_cores:
+
+sum(max by (namespace,pod,container) (
+  rate(
+    container_cpu_usage_seconds_total{
+      namespace="open5gs",
+      container=~".*amf.*",
+      cpu="total"
+    }[30s]
+  )
+))
+
+amf_memory_mib:
+
+sum(max by (namespace,pod,container) (
+  container_memory_working_set_bytes{
+    namespace="open5gs",
+    container=~".*amf.*"
+  }
+)) / 1024 / 1024
+
+amf_restart_count:
+
+max(
+  kube_pod_container_status_restarts_total{
+    namespace="open5gs",
+    pod=~".*amf.*"
+  }
+)
+
+amf_target_up:
+
+max(
+  up{
+    namespace="open5gs",
+    service=~".*amf.*"
+  }
+)
+
+
+smf_cpu_cores:
+
+sum(max by (namespace,pod,container) (
+  rate(
+    container_cpu_usage_seconds_total{
+      namespace="open5gs",
+      container=~".*smf.*",
+      cpu="total"
+    }[30s]
+  )
+))
+
+smf_memory_mib:
+
+sum(max by (namespace,pod,container) (
+  container_memory_working_set_bytes{
+    namespace="open5gs",
+    container=~".*smf.*"
+  }
+)) / 1024 / 1024
+
+smf_restart_count:
+
+max(
+  kube_pod_container_status_restarts_total{
+    namespace="open5gs",
+    pod=~".*smf.*"
+  }
+)
+
+smf_target_up:
+
+max(
+  up{
+    namespace="open5gs",
+    service=~".*smf.*"
+  }
+)
+
+
+upf_cpu_cores:
+
+sum(max by (namespace,pod,container) (
+  rate(
+    container_cpu_usage_seconds_total{
+      namespace="open5gs",
+      container=~".*upf.*",
+      cpu="total"
+    }[30s]
+  )
+))
+
+upf_memory_mib:
+
+sum(max by (namespace,pod,container) (
+  container_memory_working_set_bytes{
+    namespace="open5gs",
+    container=~".*upf.*"
+  }
+)) / 1024 / 1024
+
+upf_network_receive_mbps:
+
+8 * sum(max by (namespace,pod,interface) (
+  rate(
+    container_network_receive_bytes_total{
+      namespace="open5gs",
+      pod=~".*upf.*",
+      interface!="lo"
+    }[30s]
+  )
+)) / 1000000
+
+upf_network_transmit_mbps:
+
+8 * sum(max by (namespace,pod,interface) (
+  rate(
+    container_network_transmit_bytes_total{
+      namespace="open5gs",
+      pod=~".*upf.*",
+      interface!="lo"
+    }[30s]
+  )
+)) / 1000000
+
+upf_restart_count:
+
+max(
+  kube_pod_container_status_restarts_total{
+    namespace="open5gs",
+    pod=~".*upf.*"
+  }
+)
+
+upf_target_up:
+
+max(
+  up{
+    namespace="open5gs",
+    service=~".*upf.*"
+  }
+)
+
+
+vm_cpu_percent:
+
+100 * (
+  1 - avg(
+    rate(
+      node_cpu_seconds_total{
+        mode="idle"
+      }[30s]
+    )
+  )
+)
+
+vm_memory_percent:
+
+100 * (
+  1 -
+  node_memory_MemAvailable_bytes
+  /
+  node_memory_MemTotal_bytes
+)
+
