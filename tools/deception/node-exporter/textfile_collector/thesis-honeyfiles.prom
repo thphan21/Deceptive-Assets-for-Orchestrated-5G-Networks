@@ -1,0 +1,8 @@
+thesis_honeyfiles_total{target_namespace="open5gs",target_nf="udr"} 0
+thesis_honey_assets_discovered{target_namespace="open5gs",target_nf="udr"} 0
+thesis_honey_assets_interacted{target_namespace="open5gs",target_nf="udr"} 0
+thesis_honeyfiles_interacted{target_namespace="open5gs",target_nf="udr"} 0
+thesis_honeyenvs_interacted{target_namespace="open5gs",target_nf="udr"} 0
+thesis_honeybinaries_interacted{target_namespace="open5gs",target_nf="udr"} 0
+thesis_suspicious_exec_events{target_namespace="open5gs",target_nf="udr"} 0
+thesis_suspicious_binaries_seen{target_namespace="open5gs",target_nf="udr"} 0

@@ -1,0 +1,27 @@
+mcc: '999'          # Mobile Country Code value
+mnc: '70'           # Mobile Network Code value (2 or 3 digits)
+
+nci: '0x000000010'  # NR Cell Identity (36-bit)
+idLength: 32        # NR gNB ID length in bits [22...32]
+tac: 1              # Tracking Area Code
+
+linkIp: 192.168.100.69
+ngapIp: 192.168.100.69
+gtpIp: 192.168.100.69
+
+# List of AMF address information
+amfConfigs:
+  - address: 192.168.100.69
+    port: 31584
+
+# List of supported S-NSSAIs by this gNB
+slices:
+  - sst: 1
+
+# Indicates whether or not SCTP stream number errors should be ignored.
+ignoreStreamIds: true
+
+# Cell access type. When set to one of the satellite types (nr-leo, nr-meo,
+# nr-geo, nr-othersat), the gNB attaches the NR-NTN TAI Information extension
+# to every UserLocationInformationNR it sends to the AMF. Defaults to "nr".
+cellAccessType: nr
