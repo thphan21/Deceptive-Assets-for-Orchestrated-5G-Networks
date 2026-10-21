@@ -41,8 +41,8 @@ spec:
         description: "At least one honey binary was interacted with."
 
     # More than 5 distinct suspicious binaries executed
-    - alert:  Detected_at_least_7_Suspicious_BINARY_Executions
-      expr: thesis_suspicious_binaries_seen >= 7
+    - alert:  Detected_at_least_5_Suspicious_BINARY_Executions
+      expr: thesis_suspicious_binaries_seen >= 5
       labels:
         severity: critical
         experiment: thesis-deception
