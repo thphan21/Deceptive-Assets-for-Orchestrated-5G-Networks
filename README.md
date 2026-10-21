@@ -33,7 +33,6 @@ The prototype introduces deceptive resources into a real running network functio
 | **Alerting** | Uses Prometheus alert rules and Alertmanager to flag interactions with deceptive resources.                                                                                                      |
 | **5G traffic evaluation** | Uses UERANSIM to simulate UEs and a gNB, and D-ITG to evaluate user-plane traffic under different configurations.                                                                                |
 
-
 ## System Architecture
 
 The prototype runs on a single Ubuntu virtual machine hosting a single-node k3s cluster. Open5GS provides the 5G core, while UERANSIM supplies simulated radio access and user equipment. Deceptive resources are deployed in the UDR pod in the `open5gs` namespace.
@@ -98,7 +97,8 @@ Unlike a single-container application, this prototype depends on a functioning K
 - Git, Python 3, Bash, and Kubernetes command-line access (`kubectl`).
 - A running k3s cluster with the Open5GS core deployed in the `open5gs` namespace.
 - UERANSIM configured to connect its simulated gNB and UEs to Open5GS, which can be configured with [SetUp UERANSIM and NGAP](./tools/d-itg/scripts/setup-ueransim-environment.sh).
-- Apache Caldera adversary configured for the controlled experiment.
+- Apache Caldera adversary configured for the controlled experiment. Unfortunately, Apache CALDERA encountered issues when exporting the customized adversary or provided adversary, so an importable YAML file could not be provided. However, the adversary can be recreated manually by assembling the individual abilities and applying the necessary customizations. The screenshot at [Simulated Adversary Steps in Caldera](Figures/Screenshot_of_Simulated_Adversary.png) and the experiment log at [caldera_csv.csv](./experiments/experiment-campaigns/density-90/run1/caldera_csv.csv) provide a reference for the sequence of commands used in the simulated attack. The eigth and the last step are custom abilities and not part of the default Caldera set.
+
 - Tetragon configured to observe the target UDR pod.
 - Prometheus, Grafana, and Alertmanager configured for the experimental metrics and alerts.
 - D-ITG for traffic-performance experiments.
@@ -129,7 +129,6 @@ Use the asset-generation and deployment scripts provided in the repository to:
 The experiment each follow the same protocol. The protocols walk through running the experiments and which commands are used to set up the environment before running the experiment, and also shows the steps to take after the experiment finished to save the experiment's data.
 For the adversary experiment, follow the steps described here: [Campaign experiment protocol](./Experiment_Protocols/Protocol_Run_Campaign_Exeriment.sh). 
 For the Baseline Experiment follow these steps: [Baseline experiment protocol](./Experiment_Protocols/Protocol_Run_Baseline_Exeriment.sh)
-
 
 ## Monitoring and Evaluation Output
 
